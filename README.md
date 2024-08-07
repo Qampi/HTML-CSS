@@ -9,7 +9,7 @@ to create a URL that is relative to the root level it needs to start with '/' ca
 
 CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
-COMMENT & ELEMENT SELECTOR:
+1. COMMENT & ELEMENT SELECTOR:
 CSS Parts [the selector & the declaration block
 The CSS selector: part specifies the HTMl pattern if it matches 
 The CSS declaeation part: are applied to the corresponding HTML elements
@@ -19,7 +19,7 @@ Selectors in CSS: The first type is the element selector. If we want to select a
 Example: write "P" without the angle brackets and set the color property to blue
 to make all the H2s red, for example, we use the selector "H2" in the CSS. Again, we use the color property and set it to red
 In CSS, comments are written with a slash star and a star slash. You can leave comments for yourself too for reference while writing code.
-A CLASS SELECTOR:
+2. A CLASS SELECTOR:
 A class is an attribute that can be added to any HTML element, providing additional details about that element.
 to turn a paragraph to a different color: add a class attribute to the paragraph tag and give it a name like "intro." 
 Use a dot (.) before the class name to differentiate it from HTML element selectors. Write ".intro" and set the color to green.
@@ -30,4 +30,5 @@ To group select insert P (paragraph),  li (list) {insert color;}, The web browse
 p, li{green;} 
 to add color on single word in a paragraph( add that word to the selector 
 whenever you see selectors grouped together with commas, it means each of those items is a separate selector. Whether it is paragraphs, list items, or anything with the class 
+DESCENDENT SELECTORS: 
 
