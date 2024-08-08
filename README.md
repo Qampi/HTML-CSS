@@ -30,5 +30,19 @@ To group select insert P (paragraph),  li (list) {insert color;}, The web browse
 p, li{green;} 
 to add color on single word in a paragraph( add that word to the selector 
 whenever you see selectors grouped together with commas, it means each of those items is a separate selector. Whether it is paragraphs, list items, or anything with the class 
-DESCENDENT SELECTORS: 
-
+DESCENDENT SELECTORS:
+A descendant selector allows us to select list items that are descendants of either an ordered or an unordered list
+when applying a style using descendent selector we can write the code without the bodytag.
+Example:  the space between "OL" and "LI" signifies the descendant relationship, Only the list items that are part of the ordered list will be affected.
+CSS selectors that have multiple terms they can be read from right to left, even though we write them from left to right
+a single-style declaration means using a series of selectors or just one selector with curly brackets
+3. IDENTIFY A COLOR SCHEME:
+Canvas can be used to edit pictures- gives user different color palettes to choose from. Canva's color palettes also display hex values. Color names and hex values are the most commonly used methods for working with colors on the web.
+FORMATTING COLOR IN CSS:
+After selecting a color palette, the next step is to incorporate it into your code
+only limited colors that have names on CSS, to represent colors online is through hex codes, also known as hex values or hex format. Hex values are typically six-digits long and consist of numbers zero to nine and letters A to F. the first digits represent the first color and the next two represent another color and the final two represent another color.
+BACKGROUND & TEXT COLOR IN CSS
+to change background in CSSS we can insert the "background-color" property and specifying a hex color, color the background behind specific elements
+UNDERSTADING IMAGES IN CSS:
+it is important use the correct format of images, to fast download images resize them to a smaller size by adjusting the dimensions of the image to the required size, trimming or cropping unnecessary parts, and resizing the image.
+In HTML, you can use the image element to place an image on the web page alongside the text. These images are crucial for conveying the page's message, such as logos or social media icons. On the other hand, CSS allows you to include background images, which are purely decorative and not essential to the webpage's text. 
