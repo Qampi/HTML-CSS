@@ -61,4 +61,9 @@ Two types of Font Measuring and Size: Absolute and Relative
 Absolute sizes, such as points or pixels, remain the same regardless of the screen size.
 Relative units like percentages or R-E-M (pronounced "rem") can adjust based on the page size.
 According to web developers, the preferred font size unit is usually "rem."
-1 rem is equivalent to 16 pixels.
+1 rem is equivalent to 16 pixels.  rem can have decimal values
+THE BOX MODEL IN CSS:
+BORDER, PADDING & MARGIN IN CSS:
+5. ADVANCED CSS PROPERTIES AND CONCEPTS:
+
+
