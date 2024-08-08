@@ -44,5 +44,9 @@ only limited colors that have names on CSS, to represent colors online is throug
 BACKGROUND & TEXT COLOR IN CSS
 to change background in CSSS we can insert the "background-color" property and specifying a hex color, color the background behind specific elements
 UNDERSTADING IMAGES IN CSS:
+There are various image formats, like GIF, PNG, JPEG, bitmap, TIFF, and more proprietary formats like PSD. Traditionally, the web has supported three types of image formats. CSS supports GIF, PNG, JPEG and WebP image formats. 
 it is important use the correct format of images, to fast download images resize them to a smaller size by adjusting the dimensions of the image to the required size, trimming or cropping unnecessary parts, and resizing the image.
 In HTML, you can use the image element to place an image on the web page alongside the text. These images are crucial for conveying the page's message, such as logos or social media icons. On the other hand, CSS allows you to include background images, which are purely decorative and not essential to the webpage's text. 
+BACKGROUNG IMAGES IN CSS:
+Background images flex and can tile both horizontally (X-axis) and vertically (Y-axis), creating a wallpaper effect. (Defaulft behaviour for Images) 
+5. UDERSTANDING TYPE IN CSS:
