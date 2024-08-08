@@ -49,4 +49,13 @@ it is important use the correct format of images, to fast download images resize
 In HTML, you can use the image element to place an image on the web page alongside the text. These images are crucial for conveying the page's message, such as logos or social media icons. On the other hand, CSS allows you to include background images, which are purely decorative and not essential to the webpage's text. 
 BACKGROUNG IMAGES IN CSS:
 Background images flex and can tile both horizontally (X-axis) and vertically (Y-axis), creating a wallpaper effect. (Defaulft behaviour for Images) 
-5. UDERSTANDING TYPE IN CSS:
+4. UDERSTANDING TYPE IN CSS:
+Two font styles: Serif & San Serif
+Serif: fonts have small lines at the ends of the letters called serifs, serifs helped connect the letters, making the text easier to read
+San Serif: sans serif fonts do not have serifs and have a more modern appearance, sans serif fonts are mainly used on the web for extended text because they look clean and are easy to read.
+New times Roman is the default font used on web
+APPLYING TYPE FORMATTING WITH CSS:
+UNDERSTANDING & APPLYIN SIZING IN CSS:
+Two types of Font Measuring and Size: Absolute and Relative 
+Absolute sizes, such as points or pixels, remain the same regardless of the screen size.
+Relative units like percentages or R-E-M (pronounced "rem") can adjust based on the page size.
