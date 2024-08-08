@@ -55,7 +55,10 @@ Serif: fonts have small lines at the ends of the letters called serifs, serifs h
 San Serif: sans serif fonts do not have serifs and have a more modern appearance, sans serif fonts are mainly used on the web for extended text because they look clean and are easy to read.
 New times Roman is the default font used on web
 APPLYING TYPE FORMATTING WITH CSS:
+Modification of Fonts: add a font-family property to the body element, the property will allow you to change the fonts on the page. Make use of a font stack, starting with Arial, then Helvetica, and finally Sans-serif. The web browser will evaluate these fonts in order.
 UNDERSTANDING & APPLYIN SIZING IN CSS:
 Two types of Font Measuring and Size: Absolute and Relative 
 Absolute sizes, such as points or pixels, remain the same regardless of the screen size.
 Relative units like percentages or R-E-M (pronounced "rem") can adjust based on the page size.
+According to web developers, the preferred font size unit is usually "rem."
+1 rem is equivalent to 16 pixels.
