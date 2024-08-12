@@ -39,6 +39,7 @@ HTML CODE, PRE & BR:
 To add a Code syntax; ut an opening code tag before the CSS snippet and a closing code tag afterward. (code) (</code)
 _HTML ENTITIES: "&LT;" & "&GT;" 
 When we type "&lt;", it will be displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign. 
+hese entities are formatted like this: an ampersand, a short code, and a semicolon. When we include them in an HTML file, they are converted into the specific characters we want. We applied this technique to replace every instance of greater than or less than symbols with their corresponding character entities. 
 br element: (mostly used in poems)
 The br element is a simple tag without an opening or closing tag. It does not contain anything inside it; it just indicates where a line break should happen.
 pre element: 
@@ -57,7 +58,23 @@ The ID Attribute: It is similar to the class attribute, but we can only use uniq
 The lang Attribute: allows us to specify the language of the content using a short language code.
 The dir Attribute: explicitly indicates the direction in which the text flows, using "LTR" for left-to-right scripts and "RTL" for right-to-left scripts. 
 ARIA ROLES:
-ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent.
+ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent. ARIA Roles come into play when we want to provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to ensure a website is fully accessible. 
+FORMATING HTML:
+In HTML, comments are inserted by typing "<!--" at the start and "-->" at the end.
+UNUSUAL CHARACTERS:
+to insert a non-breaking space between the two names, ensuring they stay on the same line-  use the code "&nbsp;"
+"&lt;", it will be displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign.
+4. HTML NAVIGATION & LINKING 
+HTML LINKS:
+To create a web we use the A element which stand for Anchor;  To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference.  Between the opening and closing A tags, we can place text or images, or both, to make them clickable. By default, the A element is inline and can be placed within a paragraph or any other text.
+The difference between HTTP and HTTPS. The "S" in HTTPS stands for Secure. 
+HTML URL PATHWAYS:
+To create a relative URL, omit the domain name but include the initial slash at the beginning. The slashes in a URL indicate that we should look deeper into the file structure or go one level down.  This tells the browser to start from the root level of the file structure, which is the outermost top level. Alternatively, we can write the path to be relative to the file where the link is written. 
+/images/logo.gif 
+../images/logo.gif
+The first version, /images/logo.gif, creates a URL that is relative to the root level. It means the browser will start looking for the file from the root of the website. 
+The second version, ../images/logo.gif, creates a URL that is relative to the location of the file where the URL is written. The ".." followed by a slash means going up one level in the directory structure.
+The URL ../images/logo.gif means starting from the current location, go up one level, find the folder named images, and then look inside it for the file logo.gif.
 
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
