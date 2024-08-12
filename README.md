@@ -9,11 +9,30 @@ to create a URL that is relative to the root level it needs to start with '/' ca
 THE FUNCTION OF HTML:
 HyperText Markup Language, is responsible for marking up the content of a website. It informs the user's computer about various elements on the page.
 Cascading Style Sheets, is like the stylist of a web page. It is responsible for how everything looks — the colors, fonts, and sizes. It is also capable of adding cool animations and interactions to spice things up.
-HTML SYNTAX:
+2. HTML TEXT FORMATING:
+HTML SYNTAX: (HTML Paragraphs) 
 Html uses tags, which are enclosed in less-than and greater-than symbols, to mark different elements. Tags come in two types: opening tags and closing tags. For example, the opening tag for a paragraph is <p>, and the closing tag is </p>. 
 Html tags work together to define elements, which are like packages containing content. Some elements, like paragraphs, require both an opening and a closing tag, while others do not.
 There is another phrase that is emphasized, which we have turned into a separate element by using opening and closing em tags. Example of a paragraph that has emphasised elements: <p> <em> for effect </em> </p>. 
-HTML document is basically a bunch of HTML elements nested inside each other. If you are familiar with computer science, you might recognize that this nesting creates a tree structure, like a family tree with parents, children, and siblings. 
+HTML document is basically a bunch of HTML elements nested inside each other. This nesting creates a tree structure, like a family tree with parents, children, and siblings. The browser pays attention to this structure and builds a big family tree that shows how everything is related. To big Family tree that is called the DOM (Document Object Model). 
+HTML HEADLINES: 
+(HTML Headlines) elements serve the purpose of dividing content into smaller, more digestible chunks. They help people to comprehend the structure of the comtent. These elements also convey a sense of hierarchy in how the browser interprets and communicates about the page.  
+The HTML elements used for marking up headlines come in six different types: h1, h2, h3, h4, h5, and h6. When viewed in a browser, each headline has a distinct visual effect. These elements also convey a sense of hierarchy in how the browser interprets and communicates about the page. 
+This hierarchical system of headlines gives meaning to the browser, distinguishing what is most important from what is less important. It also ensures that all article headlines share the same type, h2, which is crucial for screen reader users who rely on consistent hierarchical information to navigate the page. 
+HTML BOLD & ITALICS: 
+There are four HTML elements related; two for Bold and two for Italics
+Two different elements to convey this distinction for ITALICS. We use the "<i>" element to apply visual italics and the "<em>" element to add emphasis.
+two different elements for Bold: "<strong>" element, which is used to show importance, seriousness, or urgency. the "<b>" element is more generic and neutral,  It does not carry any specific meaning; it simply allows us to make something bold visually and does not imply any alternative voice or mood.
+HTML LISTS:
+ In HTML, there are three types of lists: unordered lists, ordered lists, and definition lists. Each item in the list is enclosed in an <li> element, which represents a list item. To define the entire list and specify its type, we wrap all the items in a <ul> element, which stands for an unordered list. The term "ol" stands for ordered list. <dt> stands for definition term, <dd> tag stand for definition description is used for doe definition list.
+ You can have multiple descriptions for each term by using multiple  tags. The entire list is wrapped in a  <dd>tag, representing the definition list. Interestingly, the <dd> tags and <dt> tags are placed side by side without any additional wrapper around them. This is simply how a definition list is structured.
+ HTML QUOTES: 
+<cite> & <blockquote> elements serve a semantic purpose to inform other computers.
+We can use the "<q>" element in HTML, which stands for quote. By using this element, the browser will automatically provide the appropriate quote marks for us.
+Some HTML elements, like <strong>, <b>, <I>, and <em>, are called "inline" because they are meant to wrap around phrases of text that are inline with other content. They serve a similar purpose as the "<q>" element.
+Some Elements in HTML known as block-level elements, like block quotes, paragraphs, and unordered lists. These elements essentially create separate blocks on the page. You can think of them as standalone entities that can be followed by another block.
+Datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this: <time datetime="2025-05-08">May 8, 2025</time>.
+HTML DATE & TIME INPUT:
 
 CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
