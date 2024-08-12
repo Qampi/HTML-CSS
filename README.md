@@ -75,6 +75,9 @@ To create a relative URL, omit the domain name but include the initial slash at 
 The first version, /images/logo.gif, creates a URL that is relative to the root level. It means the browser will start looking for the file from the root of the website. 
 The second version, ../images/logo.gif, creates a URL that is relative to the location of the file where the URL is written. The ".." followed by a slash means going up one level in the directory structure.
 The URL ../images/logo.gif means starting from the current location, go up one level, find the folder named images, and then look inside it for the file logo.gif.
+RELATIVE URL vs ABSOLUTE URL:
+Relative URLs are based on the current file's location, while absolute URLs start from the root of the website.
+NAVIGATION: 
 
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
