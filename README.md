@@ -99,7 +99,10 @@ MAIN FILE FORMATS:
   -SVG:is a vector file that contains instructions for drawing rather than individual pixels, are perfect for logos, icons, and other types of illustrations.
   -JPG:a popular choice for compressing photographs, it is important to resize and compress them appropriately when placed websites. 
   -PNG:is a newer format that works well when you need transparency in a photograph
-RESPONSIVE IMAGES:
+RESPONSIVE IMAGES:HTML allows us to deliver different image files to screens of different sizes. We can create multiple image files and include them as options in our HTML code.
+RESPONSIVE WIDTH:
+RESPONSIVE IMAGE:
+
 
 
 _CSS- INTRO
