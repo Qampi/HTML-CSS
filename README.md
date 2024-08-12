@@ -93,7 +93,15 @@ There are four ways to include when inserting Image in a Website
 - The alt attribute (ALT), which provides a text description of the image. (serves as a replacement for the image when it cannot be seen as Description of whats in the Image, just focus on what it depicts). 
 - The width and height attributes, which determine the size of the image.
 IMAGE FORMATS:
-when uploading an Image file on a website it needs to be in a certain Image format. 
+when uploading an Image file on a website it needs to be in a certain file format, a format that web browsers can understand.
+MAIN FILE FORMATS:
+  -GIF:are great for compressing illustrations that have large areas of the same color, but it falls short when it comes to photographs. It only supports 256 colors, and images can end up looking pixelated.
+  -SVG:is a vector file that contains instructions for drawing rather than individual pixels, are perfect for logos, icons, and other types of illustrations.
+  -JPG:a popular choice for compressing photographs, it is important to resize and compress them appropriately when placed websites. 
+  -PNG:is a newer format that works well when you need transparency in a photograph
+RESPONSIVE IMAGES:
+
+
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
 1. COMMENT & ELEMENT SELECTOR:
