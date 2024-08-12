@@ -6,6 +6,14 @@ attributes provide a way to name HTML elements and reference them in other parts
 ARIA Roles are extra attributes that can be added to HTML elements to convey the message more meanigful.
 to create a link make use of the 'A'element which stans for ánchor'- we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference
 to create a URL that is relative to the root level it needs to start with '/' can be known as absolute URL. a URL that is relative to the location of the file start it with ..- goes to one level which is the one mentioned on the URL. can be known as relative URL. 
+THE FUNCTION OF HTML:
+HyperText Markup Language, is responsible for marking up the content of a website. It informs the user's computer about various elements on the page.
+Cascading Style Sheets, is like the stylist of a web page. It is responsible for how everything looks — the colors, fonts, and sizes. It is also capable of adding cool animations and interactions to spice things up.
+HTML SYNTAX:
+Html uses tags, which are enclosed in less-than and greater-than symbols, to mark different elements. Tags come in two types: opening tags and closing tags. For example, the opening tag for a paragraph is <p>, and the closing tag is </p>. 
+Html tags work together to define elements, which are like packages containing content. Some elements, like paragraphs, require both an opening and a closing tag, while others do not.
+There is another phrase that is emphasized, which we have turned into a separate element by using opening and closing em tags. Example of a paragraph that has emphasised elements: <p> <em> for effect </em> </p>. 
+HTML document is basically a bunch of HTML elements nested inside each other. If you are familiar with computer science, you might recognize that this nesting creates a tree structure, like a family tree with parents, children, and siblings. 
 
 CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
