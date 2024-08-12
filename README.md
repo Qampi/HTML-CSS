@@ -49,8 +49,17 @@ Superscripts: <sup> insert your text </sup>
 Subscripts:  <sub> insert your text </sub> 
 Small text: <small> insert your text </small> 
 3. HTML CAPABILITIES:
+TROUBLESHOOTING & DEBUGGING HTML CODES:
+HTML ATTRIBUTES:
+The four most important Global Attributes: "class," "id," "lang," and "dir." You can find a comprehensive list of all the Global Attributes on MDM web docs.
+The Class Attribute: allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class.
+The ID Attribute: It is similar to the class attribute, but we can only use unique names once on an entire HTML page. IDs can be used for CSS targeting, but are more specific, which can sometimes cause issues. 
+The lang Attribute: allows us to specify the language of the content using a short language code.
+The dir Attribute: explicitly indicates the direction in which the text flows, using "LTR" for left-to-right scripts and "RTL" for right-to-left scripts. 
+ARIA ROLES:
+ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent.
 
-CSS- INTRO
+_CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
 1. COMMENT & ELEMENT SELECTOR:
 CSS Parts [the selector & the declaration block
