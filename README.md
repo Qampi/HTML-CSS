@@ -78,7 +78,22 @@ The URL ../images/logo.gif means starting from the current location, go up one l
 RELATIVE URL vs ABSOLUTE URL:
 Relative URLs are based on the current file's location, while absolute URLs start from the root of the website.
 NAVIGATION: 
-
+creating a menu for a website: 
+-wrap each link with the correct element 
+-then enclosed in an "li" element to create a list of links
+-Finally, encompass the entire menu in a "nav" element to indicate that it is the site's navigation.
+-To give the menu a visual appearance, apply CSS styling.
+-add some attributes to convey its purpose
+-Assign the role "navigation" to the "nav" element, which signifies that it represents the main navigation of the page
+-include an "aria label" for the main menu, providing a descriptive label that can be read aloud by a screen reader. 
+5. HTML WORKING WITH GRAPHICS & IMAGES:
+IMAGES: 
+There are four ways to include when inserting Image in a Website
+- The source attribute (SRC), which tells the browser which image file to load. (paste the Image URL into the source attribute) 
+- The alt attribute (ALT), which provides a text description of the image. (serves as a replacement for the image when it cannot be seen as Description of whats in the Image, just focus on what it depicts). 
+- The width and height attributes, which determine the size of the image.
+IMAGE FORMATS:
+when uploading an Image file on a website it needs to be in a certain Image format. 
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
 1. COMMENT & ELEMENT SELECTOR:
