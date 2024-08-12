@@ -33,6 +33,22 @@ Some HTML elements, like <strong>, <b>, <I>, and <em>, are called "inline" becau
 Some Elements in HTML known as block-level elements, like block quotes, paragraphs, and unordered lists. These elements essentially create separate blocks on the page. You can think of them as standalone entities that can be followed by another block.
 Datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this: <time datetime="2025-05-08">May 8, 2025</time>.
 HTML DATE & TIME INPUT:
+To insert HTML time tag (<time>) and a closing tag (</time>). For example, we can use it like this: <time>May 8th</time> or <time>May 8th 2025</time>, depending on how we prefer to write dates.
+The main purpose of the <time> element is to convey the exact date or time to computers.
+HTML CODE, PRE & BR:
+To add a Code syntax; ut an opening code tag before the CSS snippet and a closing code tag afterward. (code) (</code)
+_HTML ENTITIES: "&LT;" & "&GT;" 
+When we type "&lt;", it will be displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign. 
+br element: (mostly used in poems)
+The br element is a simple tag without an opening or closing tag. It does not contain anything inside it; it just indicates where a line break should happen.
+pre element: 
+It is mostly used in peoms that have irregular spacing.  Wrap the poem in pre tags, and now you can see that the browser respects the spacing, line breaks, and everything else. We can even insert a random character anywhere, and it will stay exactly where we put it.
+HTML SUPERSCRIPTS, SUBSCRIPTS & SMALL TEXT: 
+Subscripts, superscripts, and small text can be used where you need to mark up certain bits of content as having a different meaning than the rest. Subscripts are characters that are set below the normal baseline for text. Superscripts are characters that are set above the normal baseline of text. 
+Superscripts: <sup> insert your text </sup> 
+Subscripts:  <sub> insert your text </sub> 
+Small text: <small> insert your text </small> 
+3. HTML CAPABILITIES:
 
 CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
