@@ -99,12 +99,19 @@ MAIN FILE FORMATS:
   -SVG:is a vector file that contains instructions for drawing rather than individual pixels, are perfect for logos, icons, and other types of illustrations.
   -JPG:a popular choice for compressing photographs, it is important to resize and compress them appropriately when placed websites. 
   -PNG:is a newer format that works well when you need transparency in a photograph
-RESPONSIVE IMAGES:HTML allows us to deliver different image files to screens of different sizes. We can create multiple image files and include them as options in our HTML code.
-RESPONSIVE WIDTH:
-RESPONSIVE IMAGE:
-
-
-
+RESPONSIVE IMAGES:HTML allows us to deliver different image files to screens of different sizes. We can create multiple image files and include them as options in our HTML code.starting with the basic code for loading an image on a webpage. Use an image element with a source attribute that points to the image file, along with ALT text, width, and height.
+RESPONSIVE WIDTH: specifying the pixel density like one x, two x, etc., indicate the width of each file: 480w for 480 pixels wide and 960w for 960 pixels wide.
+RESPONSIVE IMAGE:TO display a small image on a bigger screen you can add attributes like source set or size (piture element). -use the image element with its ALT text and a URL to the image file. -wrap this image element with the picture element. - Within the picture element, list alternative options using the source element. - first source element, use the source set attribute to point to a mobile image file. -he other source element, use a kind of media query to specify the image for larger screens.
+FIGCAPTIONS & FIGURES:
+-To match an image to a caption. -Show a picture and add a caption to it. - Use the figcaption element to wrap the text and designate it as a caption. -put the image and the caption together in a figure element.
+6. HTML WORKING WITH MEDIA:
+  WORKING WITH AUDIO:
+-Audio element is different from the Image element because it has opening and closing tags.
+-For Audio control you can create them on JavaScript of through HTML media element API.
+AUDIO ELEMENT: <audio controls src="audio.mp3"> </audio>
+The audio element is an excellent tool for embedding audio files and a player on a webpage.
+  WORKING WITH VIDEO:
+  
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
 1. COMMENT & ELEMENT SELECTOR:
