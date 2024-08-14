@@ -111,6 +111,21 @@ FIGCAPTIONS & FIGURES:
 AUDIO ELEMENT: <audio controls src="audio.mp3"> </audio>
 The audio element is an excellent tool for embedding audio files and a player on a webpage.
   WORKING WITH VIDEO:
+  -video elements has teo tags just like the audio element.
+  -make the use of source attributes to display videos
+  -to specifie multiple fle formats make use of the source element with the appropriate attributes.
+  CAPTIONS & SUBTITLES:
+-use the track element and link it to a text file to add captions to the video.this element will add  functionality to the video player, allowing viewers to toggle captions on and off or switch between different subtitle options.
+-The track element it is similar to the source element
+-a file format called ibvtt, which stands for web video text tracks, will be used.
+-On the track element, use the source attribute to specify the file, the kind attribute to indicate that it contains captions, and a label attribute to display the caption option as "English" in the player
+  EMBEDDING MEDIA VIA IFRAMES:
+-Embedding refers to taking content from one site and placing it within the middle of another site's page.
+-iframe element has attributes like height and width that can be adjusted. The src attribute is used to specify the source of the video file.
+-When building a website, also consider security aspects related to the iframe element.*
+7. HTML CONTENT IDENTIFICATION:
+  LANGUAGE SUPPORT:
+-HTML is equiped with tools to indicate the langauge used in your content, setting the tools correct will enable the search engine to understand the langauge used in your website.
   
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
