@@ -143,12 +143,18 @@ The audio element is an excellent tool for embedding audio files and a player on
 -One common use is to inform the browser that the layout has been adjusted to fit small screens, making it a responsive website. Without this meta tag, the browser assumes the page follows an older layout technique designed for desktops, which needs to be scaled down for mobile devices.
 -The script tag is a commonly used element in an HTML document's head. It instructs the browser to load a JavaScript file. Although it is typically placed at the end of the document, some also include it in the head.
   CONTENT STRUCTURING:6 IMPORTANT ELEMENTS FOR CONTENT STRUCTURING
--MAIN: the main element represents and informs browser about the main content
+-MAIN: the main element represents and informs browser about the main content. the main element is used once per page. 
 -HEADER: Header is used for site headers, article headers, and headers within the content. A header is usually found at the top of most web pages and may include a logo, site name, and navigation.
 -FOOTER:The footer signifies that there are extra things to convey, regardless of its position on the page.
 -ARTICLE:. The article element wraps around any type of content unit, whether it is a long written article, a short snippet, a teaser card, a tweet, or even an app element. It represents a standalone unit of content.
 -SECTION:The section element is used to mark sections of content. For example, in a long essay with subheadings, each segment can be wrapped in a section element.
 -ASIDE: the aside element is for content that is off to the side, like sidebar information or additional details that accompany an article but are not part of its main flow. Advertisements can also be marked as an aside
+9. FORMATS & INTERACTIVE ELEMENTS:
+  FORM FUNDAMENTALS:
+-To create a form, we start with the form element, which informs the browser about the presence of a form using opening and closing tags.
+-Use the input element to provide places for users to input their name and email.
+-The input element does not have a closing tag due to its older structure. It acts as a marker for the browser to bring in functionality and place it there.
+-The insert the button element
 
   
 _CSS- INTRO
