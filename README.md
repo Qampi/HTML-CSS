@@ -126,6 +126,17 @@ The audio element is an excellent tool for embedding audio files and a player on
 7. HTML CONTENT IDENTIFICATION:
   LANGUAGE SUPPORT:
 -HTML is equiped with tools to indicate the langauge used in your content, setting the tools correct will enable the search engine to understand the langauge used in your website.
+  HTML LANGUAGE ELEMENT:  <html lang="en-US">...</html>
+-Lang attribute is used to specify the langauge usedon a webpage
+-If the whole page is in one language, it is quite simple. Set the language on the main element that wraps everything else, which is usually the HTML element. It may only be required to set it once, like in a template file that applies to the entire site, but do not forget to do it!*
+-It is also important to specify the content's direction: <html lang="en-US" dir="ltr">
+   GENERIC ELEMENTS, DIV & SPAN:
+-Div is a block-level element, while span is an inline element. They essentially do nothing until CSS or Javascript is applied to them.
+-to add a background color only to the paragraphs, excluding everything else. To achieve this, introduce a div with a class called "boxes". By targeting this box class with CSS, the changes taking effect can be seen.
+-If the is a particular phrase in the middle of the text that needs to be specifically targeted use the inline element span to mark the desired phrase.
+8. HTML INTEGRATION:
+  HTML PAGE:
+
   
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
