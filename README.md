@@ -136,6 +136,19 @@ The audio element is an excellent tool for embedding audio files and a player on
 -If the is a particular phrase in the middle of the text that needs to be specifically targeted use the inline element span to mark the desired phrase.
 8. HTML INTEGRATION:
   HTML PAGE:
+      DOCUMENT HEAD:
+-The HTML head serves as a central hub for connecting and setting up various components, ensuring that all assets are loaded and sharing page information with other sites and platforms. In a way, it is like the headquarters for getting the page off to a good start.
+-State important information about your webpage that the browser will need to know about your webpage.
+-The character set is not something you want your users to see, it is intended for the browser. To convey this, use the meta element. Ensure that meta elements are only placed inside the head as they provide metadata about the page.
+-One common use is to inform the browser that the layout has been adjusted to fit small screens, making it a responsive website. Without this meta tag, the browser assumes the page follows an older layout technique designed for desktops, which needs to be scaled down for mobile devices.
+-The script tag is a commonly used element in an HTML document's head. It instructs the browser to load a JavaScript file. Although it is typically placed at the end of the document, some also include it in the head.
+  CONTENT STRUCTURING:6 IMPORTANT ELEMENTS FOR CONTENT STRUCTURING
+-MAIN: the main element represents and informs browser about the main content
+-HEADER: Header is used for site headers, article headers, and headers within the content. A header is usually found at the top of most web pages and may include a logo, site name, and navigation.
+-FOOTER:The footer signifies that there are extra things to convey, regardless of its position on the page.
+-ARTICLE:. The article element wraps around any type of content unit, whether it is a long written article, a short snippet, a teaser card, a tweet, or even an app element. It represents a standalone unit of content.
+-SECTION:The section element is used to mark sections of content. For example, in a long essay with subheadings, each segment can be wrapped in a section element.
+-ASIDE: the aside element is for content that is off to the side, like sidebar information or additional details that accompany an article but are not part of its main flow. Advertisements can also be marked as an aside
 
   
 _CSS- INTRO
