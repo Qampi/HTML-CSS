@@ -39,11 +39,11 @@ HTML CODE, PRE & BR:
 To add a Code syntax; ut an opening code tag before the CSS snippet and a closing code tag afterward. (code) (</code)
 _HTML ENTITIES: "&LT;" & "&GT;" 
 When we type "&lt;", it will be displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign. 
-hese entities are formatted like this: an ampersand, a short code, and a semicolon. When we include them in an HTML file, they are converted into the specific characters we want. We applied this technique to replace every instance of greater than or less than symbols with their corresponding character entities. 
+These entities are formatted like this: an ampersand, a short code, and a semicolon. When we include them in an HTML file, they are converted into the specific characters we want. We applied this technique to replace every instance of greater than or less than symbols with their corresponding character entities. 
 br element: (mostly used in poems)
 The br element is a simple tag without an opening or closing tag. It does not contain anything inside it; it just indicates where a line break should happen.
 pre element: 
-It is mostly used in peoms that have irregular spacing.  Wrap the poem in pre tags, and now you can see that the browser respects the spacing, line breaks, and everything else. We can even insert a random character anywhere, and it will stay exactly where we put it.
+It is mostly used in poems that have irregular spacing.  Wrap the poem in pre tags, and now you can see that the browser respects the spacing, line breaks, and everything else. We can even insert a random character anywhere, and it will stay exactly where we put it.
 HTML SUPERSCRIPTS, SUBSCRIPTS & SMALL TEXT: 
 Subscripts, superscripts, and small text can be used where you need to mark up certain bits of content as having a different meaning than the rest. Subscripts are characters that are set below the normal baseline for text. Superscripts are characters that are set above the normal baseline of text. 
 Superscripts: <sup> insert your text </sup> 
@@ -155,7 +155,10 @@ The audio element is an excellent tool for embedding audio files and a player on
 -Use the input element to provide places for users to input their name and email.
 -The input element does not have a closing tag due to its older structure. It acts as a marker for the browser to bring in functionality and place it there.
 -The insert the button element
-
+-Add "name=name" to the first input element and "name=email" to the second
+10. ORGANIZING TABULAR INFORMATION IN HTML:
+   HTML TABLES:
+-Html tables should be used for tabular data 
   
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
