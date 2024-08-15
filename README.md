@@ -13,7 +13,8 @@ Cascading Style Sheets, is like the stylist of a web page. It is responsible for
 HTML SYNTAX: (HTML Paragraphs) 
 Html uses tags, which are enclosed in less-than and greater-than symbols, to mark different elements. Tags come in two types: opening tags and closing tags. For example, the opening tag for a paragraph is <p>, and the closing tag is </p>. 
 Html tags work together to define elements, which are like packages containing content. Some elements, like paragraphs, require both an opening and a closing tag, while others do not.
-There is another phrase that is emphasized, which we have turned into a separate element by using opening and closing em tags. Example of a paragraph that has emphasised elements: <p> <em> for effect </em> </p>. 
+There is another phrase that is emphasized, which we have turned into a separate element by using opening and closing em tags. 
+Example of a paragraph that has emphasised elements: <p> <em> for effect </em> </p>. 
 HTML document is basically a bunch of HTML elements nested inside each other. This nesting creates a tree structure, like a family tree with parents, children, and siblings. The browser pays attention to this structure and builds a big family tree that shows how everything is related. To big Family tree that is called the DOM (Document Object Model). 
 HTML HEADLINES: 
 (HTML Headlines) elements serve the purpose of dividing content into smaller, more digestible chunks. They help people to comprehend the structure of the comtent. These elements also convey a sense of hierarchy in how the browser interprets and communicates about the page.  
@@ -88,7 +89,8 @@ creating a menu for a website:
 -include an "aria label" for the main menu, providing a descriptive label that can be read aloud by a screen reader. 
 5. HTML WORKING WITH GRAPHICS & IMAGES:
 IMAGES: 
-There are four ways to include when inserting Image in a Website
+IMAGE ELEMENT: <img src="image.pjg"alt="give a depict of your image"width="400"height="300">
+There are four ways to consider when inserting Image in a Webpage:
 - The source attribute (SRC), which tells the browser which image file to load. (paste the Image URL into the source attribute) 
 - The alt attribute (ALT), which provides a text description of the image. (serves as a replacement for the image when it cannot be seen as Description of whats in the Image, just focus on what it depicts). 
 - The width and height attributes, which determine the size of the image.
@@ -103,6 +105,7 @@ RESPONSIVE IMAGES:HTML allows us to deliver different image files to screens of 
 RESPONSIVE WIDTH: specifying the pixel density like one x, two x, etc., indicate the width of each file: 480w for 480 pixels wide and 960w for 960 pixels wide.
 RESPONSIVE IMAGE:TO display a small image on a bigger screen you can add attributes like source set or size (piture element). -use the image element with its ALT text and a URL to the image file. -wrap this image element with the picture element. - Within the picture element, list alternative options using the source element. - first source element, use the source set attribute to point to a mobile image file. -he other source element, use a kind of media query to specify the image for larger screens.
 FIGCAPTIONS & FIGURES:
+-FIGCAPTION ELEMENT: <figure> <img src="image.pjg"alt="give a depict of your image"width="400"height="300"> <figcaption> add your caption </figcation> <figure>*
 -To match an image to a caption. -Show a picture and add a caption to it. - Use the figcaption element to wrap the text and designate it as a caption. -put the image and the caption together in a figure element.
 6. HTML WORKING WITH MEDIA:
   WORKING WITH AUDIO:
@@ -165,7 +168,7 @@ Relationship between HTML and CSS is to create a visual aspect of webpages.
 1. COMMENT & ELEMENT SELECTOR:
 CSS Parts [the selector & the declaration block
 The CSS selector: part specifies the HTMl pattern if it matches 
-The CSS declaeation part: are applied to the corresponding HTML elements
+The CSS declaration part: are applied to the corresponding HTML elements
 It is possible to have multiple styles applied to the same pattern, and that is where the cascading part of CSS comes into play.
 The first aspect of CSS is the selector because it is essential to be able to select specific elements in our HTML. to understand the selector you need the ability to undertand the properties & values. 
 Selectors in CSS: The first type is the element selector. If we want to select all the paragraphs on our page and make them blue, we can use the HTML element P as the selector
