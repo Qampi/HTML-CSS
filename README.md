@@ -93,10 +93,7 @@ MENU ELEMENT: <nav role="navigation"arial label"main menu">
                      <li><a href="/"> Home</a></li>
                      <li><a href="/">people</a></li>
              </ul>
-              </nav>        
-      
-      
-      
+             </nav>        
 5. HTML WORKING WITH GRAPHICS & IMAGES:
 IMAGES: 
 IMAGE ELEMENT: <img src="image.pjg"alt="give a depict of your image"width="400"height="300">
@@ -179,12 +176,15 @@ FORM ELEMENT: <h1>Form</h1>
 10. ORGANIZING TABULAR INFORMATION IN HTML:
    HTML TABLES:
 -Html tables should be used for tabular data 
-  
+TABLE ELEMENT: <table>table</table> used to wrap up the whole table
+               <tr>table row</tr>              
+               <th>tablehead</th>
+               <td>tabledata</td>
 _CSS- INTRO
 Relationship between HTML and CSS is to create a visual aspect of webpages.
 1. COMMENT & ELEMENT SELECTOR:
 CSS Parts [the selector & the declaration block
-The CSS selector: part specifies the HTMl pattern if it matches 
+The CSS selector part: specifies the HTMl pattern if it matches 
 The CSS declaration part: are applied to the corresponding HTML elements
 It is possible to have multiple styles applied to the same pattern, and that is where the cascading part of CSS comes into play.
 The first aspect of CSS is the selector because it is essential to be able to select specific elements in our HTML. to understand the selector you need the ability to undertand the properties & values. 
