@@ -67,8 +67,9 @@ to insert a non-breaking space between the two names, ensuring they stay on the 
 "&lt;", it will be displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign.
 4. HTML NAVIGATION & LINKING 
 HTML LINKS:
-To create a web we use the A element which stand for Anchor;  To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference.  Between the opening and closing A tags, we can place text or images, or both, to make them clickable. By default, the A element is inline and can be placed within a paragraph or any other text.
+To create a web we use the A element which stand for Anchor;  To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference.  Between the opening and closing a tags, we can place text or images, or both, to make them clickable. By default, the A element is inline and can be placed within a paragraph or any other text.
 The difference between HTTP and HTTPS. The "S" in HTTPS stands for Secure. 
+LINK: <a href="insert your link"> </a> 
 HTML URL PATHWAYS:
 To create a relative URL, omit the domain name but include the initial slash at the beginning. The slashes in a URL indicate that we should look deeper into the file structure or go one level down.  This tells the browser to start from the root level of the file structure, which is the outermost top level. Alternatively, we can write the path to be relative to the file where the link is written. 
 /images/logo.gif 
@@ -87,12 +88,21 @@ creating a menu for a website:
 -add some attributes to convey its purpose
 -Assign the role "navigation" to the "nav" element, which signifies that it represents the main navigation of the page
 -include an "aria label" for the main menu, providing a descriptive label that can be read aloud by a screen reader. 
+MENU ELEMENT: <nav role="navigation"arial label"main menu"> 
+             <ul class="navbar">
+                     <li><a href="/"> Home</a></li>
+                     <li><a href="/">people</a></li>
+             </ul>
+              </nav>        
+      
+      
+      
 5. HTML WORKING WITH GRAPHICS & IMAGES:
 IMAGES: 
 IMAGE ELEMENT: <img src="image.pjg"alt="give a depict of your image"width="400"height="300">
 There are four ways to consider when inserting Image in a Webpage:
 - The source attribute (SRC), which tells the browser which image file to load. (paste the Image URL into the source attribute) 
-- The alt attribute (ALT), which provides a text description of the image. (serves as a replacement for the image when it cannot be seen as Description of whats in the Image, just focus on what it depicts). 
+- The alt attribute (ALT), which provides a text description of the image. (serves as a replacement for the image when it cannot be seen. Description of whats in the Image, just focus on what it depicts). 
 - The width and height attributes, which determine the size of the image.
 IMAGE FORMATS:
 when uploading an Image file on a website it needs to be in a certain file format, a format that web browsers can understand.
@@ -110,11 +120,11 @@ FIGCAPTIONS & FIGURES:
 6. HTML WORKING WITH MEDIA:
   WORKING WITH AUDIO:
 -Audio element is different from the Image element because it has opening and closing tags.
--For Audio control you can create them on JavaScript of through HTML media element API.
+-For Audio control you can create them on JavaScript or through HTML media element API.
 AUDIO ELEMENT: <audio controls src="audio.mp3"> </audio>
 The audio element is an excellent tool for embedding audio files and a player on a webpage.
   WORKING WITH VIDEO:
-  -video elements has teo tags just like the audio element.
+  -video elements has two tags just like the audio element.
   -make the use of source attributes to display videos
   -to specifie multiple fle formats make use of the source element with the appropriate attributes.
   CAPTIONS & SUBTITLES:
@@ -130,7 +140,7 @@ The audio element is an excellent tool for embedding audio files and a player on
   LANGUAGE SUPPORT:
 -HTML is equiped with tools to indicate the langauge used in your content, setting the tools correct will enable the search engine to understand the langauge used in your website.
   HTML LANGUAGE ELEMENT:  <html lang="en-US">...</html>
--Lang attribute is used to specify the langauge usedon a webpage
+-Lang attribute is used to specify the langauge used on a webpage
 -If the whole page is in one language, it is quite simple. Set the language on the main element that wraps everything else, which is usually the HTML element. It may only be required to set it once, like in a template file that applies to the entire site, but do not forget to do it!*
 -It is also important to specify the content's direction: <html lang="en-US" dir="ltr">
    GENERIC ELEMENTS, DIV & SPAN:
@@ -159,6 +169,13 @@ The audio element is an excellent tool for embedding audio files and a player on
 -The input element does not have a closing tag due to its older structure. It acts as a marker for the browser to bring in functionality and place it there.
 -The insert the button element
 -Add "name=name" to the first input element and "name=email" to the second
+FORM ELEMENT: <h1>Form</h1>
+              <form action="received.html"method="get">
+     <div> 
+         <label for="name">Name</label>
+         <input id="name"name="name"type="text">
+     </div>
+*create form element for each form section
 10. ORGANIZING TABULAR INFORMATION IN HTML:
    HTML TABLES:
 -Html tables should be used for tabular data 
