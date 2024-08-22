@@ -79,7 +79,7 @@ The second version, ../images/logo.gif, creates a URL that is relative to the lo
 The URL ../images/logo.gif means starting from the current location, go up one level, find the folder named images, and then look inside it for the file logo.gif.
 RELATIVE URL vs ABSOLUTE URL:
 Relative URLs are based on the current file's location, while absolute URLs start from the root of the website.
-NAVIGATION: 
+**NAVIGATION:** 
 creating a menu for a website: 
 -wrap each link with the correct element 
 -then enclosed in an "li" element to create a list of links
@@ -88,7 +88,7 @@ creating a menu for a website:
 -add some attributes to convey its purpose
 -Assign the role "navigation" to the "nav" element, which signifies that it represents the main navigation of the page
 -include an "aria label" for the main menu, providing a descriptive label that can be read aloud by a screen reader. 
-MENU ELEMENT: <nav role="navigation"arial label"main menu"> 
+**MENU ELEMENT**: <nav role="navigation"arial label"main menu"> 
              <ul class="navbar">
                      <li><a href="/"> Home</a></li>
                      <li><a href="/">people</a></li>
@@ -108,23 +108,23 @@ MAIN FILE FORMATS:
   -SVG:is a vector file that contains instructions for drawing rather than individual pixels, are perfect for logos, icons, and other types of illustrations.
   -JPG:a popular choice for compressing photographs, it is important to resize and compress them appropriately when placed websites. 
   -PNG:is a newer format that works well when you need transparency in a photograph
-RESPONSIVE IMAGES:HTML allows us to deliver different image files to screens of different sizes. We can create multiple image files and include them as options in our HTML code.starting with the basic code for loading an image on a webpage. Use an image element with a source attribute that points to the image file, along with ALT text, width, and height.
+**RESPONSIVE IMAGES:**HTML allows us to deliver different image files to screens of different sizes. We can create multiple image files and include them as options in our HTML code.starting with the basic code for loading an image on a webpage. Use an image element with a source attribute that points to the image file, along with ALT text, width, and height.
 RESPONSIVE WIDTH: specifying the pixel density like one x, two x, etc., indicate the width of each file: 480w for 480 pixels wide and 960w for 960 pixels wide.
 RESPONSIVE IMAGE:TO display a small image on a bigger screen you can add attributes like source set or size (piture element). -use the image element with its ALT text and a URL to the image file. -wrap this image element with the picture element. - Within the picture element, list alternative options using the source element. - first source element, use the source set attribute to point to a mobile image file. -he other source element, use a kind of media query to specify the image for larger screens.
-FIGCAPTIONS & FIGURES:
+**FIGCAPTIONS & FIGURES:**
 -FIGCAPTION ELEMENT: <figure> <img src="image.pjg"alt="give a depict of your image"width="400"height="300"> <figcaption> add your caption </figcation> <figure>*
 -To match an image to a caption. -Show a picture and add a caption to it. - Use the figcaption element to wrap the text and designate it as a caption. -put the image and the caption together in a figure element.
-6. HTML WORKING WITH MEDIA:
-  WORKING WITH AUDIO:
+6. **HTML WORKING WITH MEDIA:**
+  **WORKING WITH AUDIO:**
 -Audio element is different from the Image element because it has opening and closing tags.
 -For Audio control you can create them on JavaScript or through HTML media element API.
 AUDIO ELEMENT: <audio controls src="audio.mp3"> </audio>
 The audio element is an excellent tool for embedding audio files and a player on a webpage.
-  WORKING WITH VIDEO:
+  **WORKING WITH VIDEO:**
   -video elements has two tags just like the audio element.
   -make the use of source attributes to display videos
   -to specifie multiple fle formats make use of the source element with the appropriate attributes.
-  CAPTIONS & SUBTITLES:
+  **CAPTIONS & SUBTITLES:**
 -use the track element and link it to a text file to add captions to the video.this element will add  functionality to the video player, allowing viewers to toggle captions on and off or switch between different subtitle options.
 -The track element it is similar to the source element
 -a file format called ibvtt, which stands for web video text tracks, will be used.
@@ -133,34 +133,34 @@ The audio element is an excellent tool for embedding audio files and a player on
 -Embedding refers to taking content from one site and placing it within the middle of another site's page.
 -iframe element has attributes like height and width that can be adjusted. The src attribute is used to specify the source of the video file.
 -When building a website, also consider security aspects related to the iframe element.*
-7. HTML CONTENT IDENTIFICATION:
-  LANGUAGE SUPPORT:
+7. **HTML CONTENT IDENTIFICATION:**
+  **LANGUAGE SUPPORT:**
 -HTML is equiped with tools to indicate the langauge used in your content, setting the tools correct will enable the search engine to understand the langauge used in your website.
   HTML LANGUAGE ELEMENT:  <html lang="en-US">...</html>
 -Lang attribute is used to specify the langauge used on a webpage
 -If the whole page is in one language, it is quite simple. Set the language on the main element that wraps everything else, which is usually the HTML element. It may only be required to set it once, like in a template file that applies to the entire site, but do not forget to do it!*
 -It is also important to specify the content's direction: <html lang="en-US" dir="ltr">
-   GENERIC ELEMENTS, DIV & SPAN:
+   **GENERIC ELEMENTS, DIV & SPAN:**
 -Div is a block-level element, while span is an inline element. They essentially do nothing until CSS or Javascript is applied to them.
 -to add a background color only to the paragraphs, excluding everything else. To achieve this, introduce a div with a class called "boxes". By targeting this box class with CSS, the changes taking effect can be seen.
 -If the is a particular phrase in the middle of the text that needs to be specifically targeted use the inline element span to mark the desired phrase.
-8. HTML INTEGRATION:
-  HTML PAGE:
-      DOCUMENT HEAD:
+8.**HTML INTEGRATION:**
+  **HTML PAGE:**
+     **DOCUMENT HEAD:**
 -The HTML head serves as a central hub for connecting and setting up various components, ensuring that all assets are loaded and sharing page information with other sites and platforms. In a way, it is like the headquarters for getting the page off to a good start.
 -State important information about your webpage that the browser will need to know about your webpage.
 -The character set is not something you want your users to see, it is intended for the browser. To convey this, use the meta element. Ensure that meta elements are only placed inside the head as they provide metadata about the page.
 -One common use is to inform the browser that the layout has been adjusted to fit small screens, making it a responsive website. Without this meta tag, the browser assumes the page follows an older layout technique designed for desktops, which needs to be scaled down for mobile devices.
 -The script tag is a commonly used element in an HTML document's head. It instructs the browser to load a JavaScript file. Although it is typically placed at the end of the document, some also include it in the head.
-  CONTENT STRUCTURING:6 IMPORTANT ELEMENTS FOR CONTENT STRUCTURING
--MAIN: the main element represents and informs browser about the main content. the main element is used once per page. 
--HEADER: Header is used for site headers, article headers, and headers within the content. A header is usually found at the top of most web pages and may include a logo, site name, and navigation.
--FOOTER:The footer signifies that there are extra things to convey, regardless of its position on the page.
--ARTICLE:. The article element wraps around any type of content unit, whether it is a long written article, a short snippet, a teaser card, a tweet, or even an app element. It represents a standalone unit of content.
--SECTION:The section element is used to mark sections of content. For example, in a long essay with subheadings, each segment can be wrapped in a section element.
--ASIDE: the aside element is for content that is off to the side, like sidebar information or additional details that accompany an article but are not part of its main flow. Advertisements can also be marked as an aside
-9. FORMATS & INTERACTIVE ELEMENTS:
-  FORM FUNDAMENTALS:
+ **CONTENT STRUCTURING:6 IMPORTANT ELEMENTS FOR CONTENT STRUCTURING**
+-**MAIN:** the main element represents and informs browser about the main content. the main element is used once per page. 
+-**HEADER:** Header is used for site headers, article headers, and headers within the content. A header is usually found at the top of most web pages and may include a logo, site name, and navigation.
+-**FOOTER:**The footer signifies that there are extra things to convey, regardless of its position on the page.
+-**ARTICLE:**. The article element wraps around any type of content unit, whether it is a long written article, a short snippet, a teaser card, a tweet, or even an app element. It represents a standalone unit of content.
+-**SECTION:**The section element is used to mark sections of content. For example, in a long essay with subheadings, each segment can be wrapped in a section element.
+-**ASIDE:** the aside element is for content that is off to the side, like sidebar information or additional details that accompany an article but are not part of its main flow. Advertisements can also be marked as an aside
+9. **FORMATS & INTERACTIVE ELEMENTS:**
+  **FORM FUNDAMENTALS:**
 -To create a form, we start with the form element, which informs the browser about the presence of a form using opening and closing tags.
 -Use the input element to provide places for users to input their name and email.
 -The input element does not have a closing tag due to its older structure. It acts as a marker for the browser to bring in functionality and place it there.
@@ -191,7 +191,7 @@ The first aspect of CSS is the selector because it is essential to be able to se
 Selectors in CSS: The first type is the element selector. If we want to select all the paragraphs on our page and make them blue, we can use the HTML element P as the selector
 Example: write "P" without the angle brackets and set the color property to blue
 to make all the H2s red, for example, we use the selector "H2" in the CSS. Again, we use the color property and set it to red
-CSS COMPONENT: selector [p] { property [color:] value[red;] }
+CSS COMPONENT: selector p { property: value; }
                p{
                   color:red;
                 }
@@ -220,7 +220,10 @@ a single-style declaration means using a series of selectors or just one selecto
 Canvas can be used to edit pictures- gives user different color palettes to choose from. Canva's color palettes also display hex values. Color names and hex values are the most commonly used methods for working with colors on the web.
 **FORMATTING COLOR IN CSS:**
 After selecting a color palette, the next step is to incorporate it into your code
-only limited colors that have names on CSS, to represent colors online is through hex codes, also known as hex values or hex format. Hex values are typically six-digits long and consist of numbers zero to nine and letters A to F. the first digits represent the first color and the next two represent another color and the final two represent another color.
+**HEXADECIMAL CODES:**
+only limited colors that have names on CSS, to represent colors online is through **hex codes**, also known as hex values or hex format.
+Hex values are typically six-digits long and consist of numbers zero to nine and letters A to F.
+The first digits represent the first color and the next two represent another color and the final two represent another color.
 **BACKGROUND & TEXT COLOR IN CSS**
 to change background in CSSS we can insert the "background-color" property and specifying a hex color, color the background behind specific elements
 **UNDERSTADING IMAGES IN CSS:**
@@ -228,8 +231,15 @@ There are various image formats, like GIF, PNG, JPEG, bitmap, TIFF, and more pro
 it is important use the correct format of images, to fast download images resize them to a smaller size by adjusting the dimensions of the image to the required size, trimming or cropping unnecessary parts, and resizing the image.
 In HTML, you can use the image element to place an image on the web page alongside the text. These images are crucial for conveying the page's message, such as logos or social media icons. On the other hand, CSS allows you to include background images, which are purely decorative and not essential to the webpage's text. 
 **BACKGROUNG IMAGES IN CSS:**
-Background images flex and can tile both horizontally (X-axis) and vertically (Y-axis), creating a wallpaper effect. (Defaulft behaviour for Images) 
-4.UDERSTANDING TYPE IN CSS:
+Background images flex and can tile both horizontally (X-axis) and vertically (Y-axis), creating a wallpaper effect. (Defaulft behaviour for Images)
+**INSERTING BACKGROUND IMAGE:**
+<style> 
+h1{
+ background-image: url(your link) 
+}
+</style>
+(we specify height, font size, font style, fomt-family, background, color). 
+4.**UNDERSTANDING TYPE IN CSS:**
 **Two font styles: Serif & San Serif**
 **Serif:** fonts have small lines at the ends of the letters called serifs, serifs helped connect the letters, making the text easier to read
 **San Serif:** sans serif fonts do not have serifs and have a more modern appearance, sans serif fonts are mainly used on the web for extended text because they look clean and are easy to read.
