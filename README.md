@@ -24,19 +24,19 @@ HTML BOLD & ITALICS:
 There are four HTML elements related; two for Bold and two for Italics
 Two different elements to convey this distinction for ITALICS. We use the "<i>" element to apply visual italics and the "<em>" element to add emphasis.
 two different elements for Bold: "<strong>" element, which is used to show importance, seriousness, or urgency. the "<b>" element is more generic and neutral,  It does not carry any specific meaning; it simply allows us to make something bold visually and does not imply any alternative voice or mood.
-HTML LISTS:
+**HTML LISTS:**
  In HTML, there are three types of lists: unordered lists, ordered lists, and definition lists. Each item in the list is enclosed in an <li> element, which represents a list item. To define the entire list and specify its type, we wrap all the items in a <ul> element, which stands for an unordered list. The term "ol" stands for ordered list. <dt> stands for definition term, <dd> tag stand for definition description is used for doe definition list.
  You can have multiple descriptions for each term by using multiple  tags. The entire list is wrapped in a  <dd>tag, representing the definition list. Interestingly, the <dd> tags and <dt> tags are placed side by side without any additional wrapper around them. This is simply how a definition list is structured.
- HTML QUOTES: 
+ **HTML QUOTES:** 
 <cite> & <blockquote> elements serve a semantic purpose to inform other computers.
 We can use the "<q>" element in HTML, which stands for quote. By using this element, the browser will automatically provide the appropriate quote marks for us.
 Some HTML elements, like <strong>, <b>, <I>, and <em>, are called "inline" because they are meant to wrap around phrases of text that are inline with other content. They serve a similar purpose as the "<q>" element.
 Some Elements in HTML known as block-level elements, like block quotes, paragraphs, and unordered lists. These elements essentially create separate blocks on the page. You can think of them as standalone entities that can be followed by another block.
 Datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this: <time datetime="2025-05-08">May 8, 2025</time>.
-HTML DATE & TIME INPUT:
+**HTML DATE & TIME INPUT:**
 To insert HTML time tag (<time>) and a closing tag (</time>). For example, we can use it like this: <time>May 8th</time> or <time>May 8th 2025</time>, depending on how we prefer to write dates.
 The main purpose of the <time> element is to convey the exact date or time to computers.
-HTML CODE, PRE & BR:
+**HTML CODE, PRE & BR:**
 To add a Code syntax; ut an opening code tag before the CSS snippet and a closing code tag afterward. (code) (</code)
 _HTML ENTITIES: "&LT;" & "&GT;" 
 When we type "&lt;", it will be displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign. 
@@ -50,26 +50,26 @@ Subscripts, superscripts, and small text can be used where you need to mark up c
 Superscripts: <sup> insert your text </sup> 
 Subscripts:  <sub> insert your text </sub> 
 Small text: <small> insert your text </small> 
-3. HTML CAPABILITIES:
+3. **HTML CAPABILITIES:**
 TROUBLESHOOTING & DEBUGGING HTML CODES:
-HTML ATTRIBUTES:
+**HTML ATTRIBUTES:**
 The four most important Global Attributes: "class," "id," "lang," and "dir." You can find a comprehensive list of all the Global Attributes on MDM web docs.
 The Class Attribute: allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class.
 The ID Attribute: It is similar to the class attribute, but we can only use unique names once on an entire HTML page. IDs can be used for CSS targeting, but are more specific, which can sometimes cause issues. 
 The lang Attribute: allows us to specify the language of the content using a short language code.
 The dir Attribute: explicitly indicates the direction in which the text flows, using "LTR" for left-to-right scripts and "RTL" for right-to-left scripts. 
-ARIA ROLES:
+**ARIA ROLES:**
 ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent. ARIA Roles come into play when we want to provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to ensure a website is fully accessible. 
 FORMATING HTML:
 In HTML, comments are inserted by typing "<!--" at the start and "-->" at the end.
 UNUSUAL CHARACTERS:
 to insert a non-breaking space between the two names, ensuring they stay on the same line-  use the code "&nbsp;"
 "&lt;", it will be displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign.
-4. HTML NAVIGATION & LINKING 
-HTML LINKS:
+4. **HTML NAVIGATION & LINKING** 
+**HTML LINKS:**
 To create a web we use the A element which stand for Anchor;  To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference.  Between the opening and closing a tags, we can place text or images, or both, to make them clickable. By default, the A element is inline and can be placed within a paragraph or any other text.
 The difference between HTTP and HTTPS. The "S" in HTTPS stands for Secure. 
-LINK: <a href="insert your link"> </a> 
+**LINK:** <a href="insert your link"> </a> 
 HTML URL PATHWAYS:
 To create a relative URL, omit the domain name but include the initial slash at the beginning. The slashes in a URL indicate that we should look deeper into the file structure or go one level down.  This tells the browser to start from the root level of the file structure, which is the outermost top level. Alternatively, we can write the path to be relative to the file where the link is written. 
 /images/logo.gif 
@@ -94,23 +94,27 @@ creating a menu for a website:
                      <li><a href="/">people</a></li>
              </ul>
              </nav>        
-5. HTML WORKING WITH GRAPHICS & IMAGES:
-IMAGES: 
-IMAGE ELEMENT: <img src="image.pjg"alt="give a depict of your image"width="400"height="300">
+5. **HTML WORKING WITH GRAPHICS & IMAGES:**
+**IMAGES:** 
+**IMAGE ELEMENT:** <img src="image.pjg"alt="give a depict of your image"width="400"height="300">
 There are four ways to consider when inserting Image in a Webpage:
 - The source attribute (SRC), which tells the browser which image file to load. (paste the Image URL into the source attribute) 
 - The alt attribute (ALT), which provides a text description of the image. (serves as a replacement for the image when it cannot be seen. Description of whats in the Image, just focus on what it depicts). 
 - The width and height attributes, which determine the size of the image.
-IMAGE FORMATS:
+**IMAGE FORMATS:**
 when uploading an Image file on a website it needs to be in a certain file format, a format that web browsers can understand.
-MAIN FILE FORMATS:
+**MAIN FILE FORMATS:**
   -GIF:are great for compressing illustrations that have large areas of the same color, but it falls short when it comes to photographs. It only supports 256 colors, and images can end up looking pixelated.
   -SVG:is a vector file that contains instructions for drawing rather than individual pixels, are perfect for logos, icons, and other types of illustrations.
   -JPG:a popular choice for compressing photographs, it is important to resize and compress them appropriately when placed websites. 
   -PNG:is a newer format that works well when you need transparency in a photograph
-**RESPONSIVE IMAGES:**HTML allows us to deliver different image files to screens of different sizes. We can create multiple image files and include them as options in our HTML code.starting with the basic code for loading an image on a webpage. Use an image element with a source attribute that points to the image file, along with ALT text, width, and height.
-RESPONSIVE WIDTH: specifying the pixel density like one x, two x, etc., indicate the width of each file: 480w for 480 pixels wide and 960w for 960 pixels wide.
-RESPONSIVE IMAGE:TO display a small image on a bigger screen you can add attributes like source set or size (piture element). -use the image element with its ALT text and a URL to the image file. -wrap this image element with the picture element. - Within the picture element, list alternative options using the source element. - first source element, use the source set attribute to point to a mobile image file. -he other source element, use a kind of media query to specify the image for larger screens.
+**RESPONSIVE IMAGES:** HTML allows us to deliver different image files to screens of different sizes. We can create multiple image files and include them as options in our HTML code.starting with the basic code for loading an image on a webpage. Use an image element with a source attribute that points to the image file, along with ALT text, width, and height.
+**RESPONSIVE WIDTH:** specifying the pixel density like one x, two x, etc., indicate the width of each file: 480w for 480 pixels wide and 960w for 960 pixels wide.
+**RESPONSIVE IMAGE:** TO display a small image on a bigger screen you can add attributes like source set or size (piture element).
+-use the image element with its ALT text and a URL to the image file. -wrap this image element with the picture element.
+- Within the picture element, list alternative options using the source element.
+- first source element, use the source set attribute to point to a mobile image file.
+- the other source element, use a kind of media query to specify the image for larger screens.
 **FIGCAPTIONS & FIGURES:**
 -FIGCAPTION ELEMENT: <figure> <img src="image.pjg"alt="give a depict of your image"width="400"height="300"> <figcaption> add your caption </figcation> <figure>*
 -To match an image to a caption. -Show a picture and add a caption to it. - Use the figcaption element to wrap the text and designate it as a caption. -put the image and the caption together in a figure element.
@@ -180,9 +184,9 @@ TABLE ELEMENT: <table>table</table> used to wrap up the whole table
                <tr>table row</tr>              
                <th>tablehead</th>
                <td>tabledata</td>
-_CSS- INTRO
+**_CSS- INTRO**
 Relationship between HTML and CSS is to create a visual aspect of webpages.
-1. COMMENT & ELEMENT SELECTOR:
+1. **COMMENT & ELEMENT SELECTOR:**
 CSS Parts [the selector & the declaration block
 The CSS selector part: specifies the HTMl pattern if it matches 
 The CSS declaration part: are applied to the corresponding HTML elements
