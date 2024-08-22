@@ -238,7 +238,7 @@ h1{
  background-image: url(your link) 
 }
 </style>
-(we specify height, font size, font style, fomt-family, background, color). 
+(we specify text height, font size, font style (italic & bold), font-family(font name), background, color & alignment(center, left, right,bottom). 
 4.**UNDERSTANDING TYPE IN CSS:**
 **Two font styles: Serif & San Serif**
 **Serif:** fonts have small lines at the ends of the letters called serifs, serifs helped connect the letters, making the text easier to read
@@ -252,8 +252,16 @@ Modification of Fonts: add a font-family property to the body element, the prope
 **Relative** units like percentages or R-E-M (pronounced "rem") can adjust based on the page size.
 According to web developers, the preferred font size unit is usually "rem."
 1 rem is equivalent to 16 pixels.  rem can have decimal values
-THE BOX MODEL IN CSS:
-BORDER, PADDING & MARGIN IN CSS:
+**THE BOX MODEL IN CSS:**
+Html elements are like boxes with different properties that are always present ecven with zero value.
+**Two Types of Box Models:** Bolck and Inline Box
+Block and inline layout is the default way things behave on the web.
+-the type refers to how the box behaves in terms of page flow and in relation to other boxes on the page. Boxes have an inner display type and an outer display type
+-HTML elements that uses tthe block box css model are <h1>, <p> 
+-HTMl elements that uses the inline box css model are <a>, <span>, <em> & <strong> 
+**BORDER:** Sits betweeen the margin and the padding. the size of the border is added to the width and height of the content box. 
+**PADDING:** sits between the border and the content. can be controlled by making use of the long-hand properties such as top, bottom, left & right
+**MARGIN:** is the visible space arount your content box. can also be controlled through the use of long-hand properties
 5. ADVANCED CSS PROPERTIES AND CONCEPTS:
 **STYLING LINKS WITH CSS:**
 To target links we use the 'a' anchor tag
