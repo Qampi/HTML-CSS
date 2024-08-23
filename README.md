@@ -70,7 +70,7 @@ to insert a non-breaking space between the two names, ensuring they stay on the 
 To create a web we use the A element which stand for Anchor;  To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference.  Between the opening and closing a tags, we can place text or images, or both, to make them clickable. By default, the A element is inline and can be placed within a paragraph or any other text.
 The difference between HTTP and HTTPS. The "S" in HTTPS stands for Secure. 
 **LINK:** <a href="insert your link"> </a> 
-HTML URL PATHWAYS:
+**HTML URL PATHWAYS:**
 To create a relative URL, omit the domain name but include the initial slash at the beginning. The slashes in a URL indicate that we should look deeper into the file structure or go one level down.  This tells the browser to start from the root level of the file structure, which is the outermost top level. Alternatively, we can write the path to be relative to the file where the link is written. 
 /images/logo.gif 
 ../images/logo.gif
@@ -111,7 +111,8 @@ when uploading an Image file on a website it needs to be in a certain file forma
 **RESPONSIVE IMAGES:** HTML allows us to deliver different image files to screens of different sizes. We can create multiple image files and include them as options in our HTML code.starting with the basic code for loading an image on a webpage. Use an image element with a source attribute that points to the image file, along with ALT text, width, and height.
 **RESPONSIVE WIDTH:** specifying the pixel density like one x, two x, etc., indicate the width of each file: 480w for 480 pixels wide and 960w for 960 pixels wide.
 **RESPONSIVE IMAGE:** TO display a small image on a bigger screen you can add attributes like source set or size (piture element).
--use the image element with its ALT text and a URL to the image file. -wrap this image element with the picture element.
+-use the image element with its ALT text and a URL to the image file.
+-wrap this image element with the picture element.
 - Within the picture element, list alternative options using the source element.
 - first source element, use the source set attribute to point to a mobile image file.
 - the other source element, use a kind of media query to specify the image for larger screens.
@@ -199,7 +200,7 @@ CSS COMPONENT: selector p { property: value; }
                p{
                   color:red;
                 }
-2. CSS COMMENT:
+2. **CSS COMMENT:**
    /* insert your CSS comment*/
 In CSS, comments are written with a slash star and a star slash. You can leave comments for yourself too for reference while writing code. 
    WRITING CLASS SELECTOR:
@@ -220,7 +221,7 @@ when applying a style using descendent selector we can write the code without th
 **Example:**  the space between "OL" and "LI" signifies the descendant relationship, Only the list items that are part of the ordered list will be affected.
 CSS selectors that have multiple terms they can be read from right to left, even though we write them from left to right
 a single-style declaration means using a series of selectors or just one selector with curly brackets
-3. IDENTIFY A COLOR SCHEME:
+3. **IDENTIFY A COLOR SCHEME:**
 Canvas can be used to edit pictures- gives user different color palettes to choose from. Canva's color palettes also display hex values. Color names and hex values are the most commonly used methods for working with colors on the web.
 **FORMATTING COLOR IN CSS:**
 After selecting a color palette, the next step is to incorporate it into your code
@@ -238,7 +239,7 @@ In HTML, you can use the image element to place an image on the web page alongsi
 Background images flex and can tile both horizontally (X-axis) and vertically (Y-axis), creating a wallpaper effect. (Defaulft behaviour for Images)
 **INSERTING BACKGROUND IMAGE:**
 <style> 
-h1{
+h1{ 
  background-image: url(your link) 
 }
 </style>
@@ -257,7 +258,7 @@ Modification of Fonts: add a font-family property to the body element, the prope
 According to web developers, the preferred font size unit is usually "rem."
 1 rem is equivalent to 16 pixels.  rem can have decimal values
 **THE BOX MODEL IN CSS:**
-Html elements are like boxes with different properties that are always present ecven with zero value.
+Html elements are like boxes with different properties that are always present even with zero value.
 **Two Types of Box Models:** Bolck and Inline Box
 Block and inline layout is the default way things behave on the web.
 -the type refers to how the box behaves in terms of page flow and in relation to other boxes on the page. Boxes have an inner display type and an outer display type
@@ -270,6 +271,9 @@ Block and inline layout is the default way things behave on the web.
 **STYLING LINKS WITH CSS:**
 To target links we use the 'a' anchor tag
 **INHERITANCE IN CSS:**
+
+**DEBUGGING CSS:**
+-
 
 
 
