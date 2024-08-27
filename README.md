@@ -25,15 +25,24 @@ There are four HTML elements related; two for Bold and two for Italics
 Two different elements to convey this distinction for ITALICS. We use the "<i>" element to apply visual italics and the "<em>" element to add emphasis.
 two different elements for Bold: "<strong>" element, which is used to show importance, seriousness, or urgency. the "<b>" element is more generic and neutral,  It does not carry any specific meaning; it simply allows us to make something bold visually and does not imply any alternative voice or mood.
 **HTML LISTS:**
- In HTML, there are three types of lists: unordered lists, ordered lists, and definition lists. Each item in the list is enclosed in an <li> element, which represents a list item. To define the entire list and specify its type, we wrap all the items in a <ul> element, which stands for an unordered list. The term "ol" stands for ordered list. <dt> stands for definition term, <dd> tag stand for definition description is used for doe definition list.
- You can have multiple descriptions for each term by using multiple  tags. The entire list is wrapped in a  <dd>tag, representing the definition list. Interestingly, the <dd> tags and <dt> tags are placed side by side without any additional wrapper around them. This is simply how a definition list is structured.
+ In HTML, there are three types of lists: unordered lists, ordered lists, and definition lists. 
+ Each item in the list is enclosed in an <li> element, which represents a list item. 
+ To define the entire list and specify its type, we wrap all the items in a <ul> element, which stands for an unordered list. 
+ The term "ol" stands for ordered list. 
+ <dt> stands for definition term, <dd> tag stand for definition description is used for doe definition list.
+ You can have multiple descriptions for each term by using multiple  tags. 
+ The entire list is wrapped in a  <dd>tag, representing the definition list. 
+ Interestingly, the <dd> tags and <dt> tags are placed side by side without any additional wrapper around them. 
+ This is simply how a definition list is structured.
  **HTML QUOTES:** 
 <cite> & <blockquote> elements serve a semantic purpose to inform other computers.
 We can use the "<q>" element in HTML, which stands for quote. By using this element, the browser will automatically provide the appropriate quote marks for us.
 Some HTML elements, like <strong>, <b>, <I>, and <em>, are called "inline" because they are meant to wrap around phrases of text that are inline with other content. They serve a similar purpose as the "<q>" element.
-Some Elements in HTML known as block-level elements, like block quotes, paragraphs, and unordered lists. These elements essentially create separate blocks on the page. You can think of them as standalone entities that can be followed by another block.
+Some Elements in HTML known as block-level elements, like block quotes, paragraphs, and unordered lists. 
+These elements essentially create separate blocks on the page. 
+You can think of them as stand alone entities that can be followed by another block.
 Datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this: <time datetime="2025-05-08">May 8, 2025</time>.
-**HTML DATE & TIME INPUT:**
+**HTML DATE & TIME INPUT**
 To insert HTML time tag (<time>) and a closing tag (</time>). For example, we can use it like this: <time>May 8th</time> or <time>May 8th 2025</time>, depending on how we prefer to write dates.
 The main purpose of the <time> element is to convey the exact date or time to computers.
 **HTML CODE, PRE & BR:**
@@ -211,7 +220,8 @@ we can use a span element with a class attribute (Another option)
 You do this by adding the span tag with class="guarantee" around that sentence in the HTML. In CSS, we write ".guarantee" to select that class and set the color to orange and the font-weight to bold.
 Style declaration can be place in no particular order
 **GROUPING SELECTOR:**
-To group select insert P (paragraph),  li (list) {insert color;}, The web browser will apply this style to all paragraphs and list items, evaluating each one individually. What about using a class? We can do that too. 
+To **group select** insert P (paragraph),  li (list) {insert color;}, The web browser will apply this style to all paragraphs and list items, evaluating each one individually.
+What about using a class? We can do that too. 
 p, li{green;} 
 to add color on single word in a paragraph( add that word to the selector 
 whenever you see selectors grouped together with commas, it means each of those items is a separate selector. Whether it is paragraphs, list items, or anything with the class 
@@ -221,7 +231,7 @@ when applying a style using descendent selector we can write the code without th
 **Example:**  the space between "OL" and "LI" signifies the descendant relationship, Only the list items that are part of the ordered list will be affected.
 CSS selectors that have multiple terms they can be read from right to left, even though we write them from left to right
 a single-style declaration means using a series of selectors or just one selector with curly brackets
-3. **IDENTIFY A COLOR SCHEME:**
+4. **IDENTIFY A COLOR SCHEME:**
 Canvas can be used to edit pictures- gives user different color palettes to choose from. Canva's color palettes also display hex values. Color names and hex values are the most commonly used methods for working with colors on the web.
 **FORMATTING COLOR IN CSS:**
 After selecting a color palette, the next step is to incorporate it into your code
