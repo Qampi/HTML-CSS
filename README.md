@@ -220,7 +220,10 @@ we can use a span element with a class attribute (Another option)
 You do this by adding the span tag with class="guarantee" around that sentence in the HTML. In CSS, we write ".guarantee" to select that class and set the color to orange and the font-weight to bold.
 Style declaration can be place in no particular order
 **GROUPING SELECTOR:**
-To **group select** insert P (paragraph),  li (list) {insert color;}, The web browser will apply this style to all paragraphs and list items, evaluating each one individually.
+To **group select** insert P (paragraph),  
+                           li (list) {
+                           insert color;
+                           }, The web browser will apply this style to all paragraphs and list items, evaluating each one individually.
 What about using a class? We can do that too. 
 p, li{green;} 
 to add color on single word in a paragraph( add that word to the selector 
