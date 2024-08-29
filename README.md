@@ -285,8 +285,6 @@ Block and inline layout is the default way things behave on the web.
 To target links we use the 'a' anchor tag
 **INHERITANCE IN CSS:**
 
-**DEBUGGING CSS:**
--
-
+**DEBUGGING CSS:*
 
 
