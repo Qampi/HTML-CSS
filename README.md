@@ -202,7 +202,8 @@ The CSS selector part: specifies the HTMl pattern if it matches
 The CSS declaration part: are applied to the corresponding HTML elements
 It is possible to have multiple styles applied to the same pattern, and that is where the cascading part of CSS comes into play.
 The first aspect of CSS is the selector because it is essential to be able to select specific elements in our HTML. to understand the selector you need the ability to undertand the properties & values. 
-Selectors in CSS: The first type is the element selector. If we want to select all the paragraphs on our page and make them blue, we can use the HTML element P as the selector
+Selectors in CSS: The first type is the element selector. 
+               If we want to select all the paragraphs on our page and make them blue, we can use the HTML element P as the selector
 Example: write "P" without the angle brackets and set the color property to blue
 to make all the H2s red, for example, we use the selector "H2" in the CSS. Again, we use the color property and set it to red
 CSS COMPONENT: selector p { property: value; }
