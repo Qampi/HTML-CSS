@@ -288,9 +288,11 @@ Block and inline layout is the default way things behave on the web.
 **STYLING LINKS WITH CSS:**
 To target links we use the 'a' anchor tag
 **INHERITANCE IN CSS:**
-
 **DEBUGGING CSS:**
--
+
+ 
+ 
+**SOTFWARE DEVELOPMENT BOOTCAMP:**
 JAVASCRIPT BASICS
 VARIABLES & DATA TYPE
 A variable in JavaScript is a container that holds data values. Variables allow you to store, update, and manipulate information throughout your code.
@@ -299,6 +301,24 @@ Declaring Variables:
 -let: Can be reassigned but nott redeclared & has bloch scope. 
 -const: Can not be redeclared nor reassigned, it has the block function can be used for values that should not change.
 DATA TYPES:
+-Numbers: Refers to the use of numeric values.
+-Strings: Refers to the sequence of characters to represent a text.
+-Booleans: Mainly used in conditions & logical operations (true or false).
+-Arrays: Refers to the use of list of values that can be different types of data stored in single variable. 
+-Objects: Complex data structures that can hold multiple values and functions (methods) as properties.
+OPERATORS & EXPRESSIONS:
+Operators: are building blocks of expression in JavaScript, they are made of symbols or keywords used to perform operations on values.
+TYPES OF OPERATORS:
+-Arithmetic Operators: Are used for mathematical caculations. Arithmetic operators refers to mathematical signs used when calculating (+; -; x; % & *).
+-Assignment Operators: Are used to assign values to variables. = (assign), += (add and assign), -= (subtract and assign), *= (multiply and assign), /= (divide and assign).
+-Comparison Operators: Are used to compare values & return a boolean (true or false). == (equal), != (not equal), === (strict equal), !== (strict not equal), > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to).
+-Logical Operators: Are used to combine multiple conditions. && (AND), || (OR), ! (NOT).
+-Unary Operators: They operate on single operand. 
+-Ternary Operator: Refers to the short-hand of if-self statement. ++ (increment), -- (decrement), typeof (type of operand).
+
+EXPRESSIONS:
+
+
 
 
 
