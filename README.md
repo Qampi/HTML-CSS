@@ -64,17 +64,17 @@ Small text: <small> insert your text </small>
 TROUBLESHOOTING & DEBUGGING HTML CODES:
 **HTML ATTRIBUTES:**
 The four most important Global Attributes: "class," "id," "lang," and "dir." You can find a comprehensive list of all the Global Attributes on MDM web docs.
- Example of how to add "class" to style "class."
- Example of how to add "id#"
 The Class Attribute: allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class.
-The ID Attribute: It is similar to the class attribute, but we can only use unique names once on an entire HTML page. IDs can be used for CSS targeting, but are more specific, which can sometimes cause issues. 
+ Example of how to add "class" to style "class."
+The ID Attribute: It is similar to the class attribute, but we can only use unique names once on an entire HTML page. IDs can be used for CSS targeting, but are more specific, which can sometimes cause issues.
+Example of how to add "id#"
 The lang Attribute: allows us to specify the language of the content using a short language code.
 The dir Attribute: explicitly indicates the direction in which the text flows, using "LTR" for left-to-right scripts and "RTL" for right-to-left scripts. 
 **ARIA ROLES:**
 ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent. ARIA Roles come into play when we want to provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to ensure a website is fully accessible. 
-FORMATING HTML:
+**FORMATING HTML:**
 In HTML, comments are inserted by typing "<!--" at the start and "-->" at the end.
-UNUSUAL CHARACTERS:
+**UNUSUAL CHARACTERS:**
 to insert a non-breaking space between the two names, ensuring they stay on the same line-  use the code "&nbsp;"
 "&lt;", it will be displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign.
 4. **HTML NAVIGATION & LINKING** 
@@ -221,7 +221,8 @@ A **class** is an attribute that can be added to any HTML element, providing add
 to turn a paragraph to a different color: add a class attribute to the paragraph tag and give it a name like "intro." 
 Use a dot (.) before the class name to differentiate it from HTML element selectors. Write ".intro" and set the color to green.
 we can use a span element with a class attribute (Another option)
-You do this by adding the span tag with class="guarantee" around that sentence in the HTML. In CSS, we write ".guarantee" to select that class and set the color to orange and the font-weight to bold.
+You do this by adding the span tag with class="guarantee" around that sentence in the HTML. In CSS, we write ".
+guarantee" to select that class and set the color to orange and the font-weight to bold.
 Style declaration can be place in no particular order
 **GROUPING SELECTOR:**
 To **group select** insert P (paragraph), li (list) {
