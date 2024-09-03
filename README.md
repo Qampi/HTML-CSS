@@ -234,7 +234,7 @@ when applying a style using descendent selector we can write the code without th
 **Example:**  the space between "OL" and "LI" signifies the descendant relationship, Only the list items that are part of the ordered list will be affected.
 CSS selectors that have multiple terms they can be read from right to left, even though we write them from left to right
 a single-style declaration means using a series of selectors or just one selector with curly brackets
-4. **IDENTIFY A COLOR SCHEME:**
+3. **IDENTIFY A COLOR SCHEME:**
 Canvas can be used to edit pictures- gives user different color palettes to choose from. Canva's color palettes also display hex values. Color names and hex values are the most commonly used methods for working with colors on the web.
 **FORMATTING COLOR IN CSS:**
 After selecting a color palette, the next step is to incorporate it into your code
