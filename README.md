@@ -291,6 +291,15 @@ To target links we use the 'a' anchor tag
 
 **DEBUGGING CSS:**
 -
+JAVASCRIPT BASICS
+VARIABLES & DATA TYPE
+A variable in JavaScript is a container that holds data values. Variables allow you to store, update, and manipulate information throughout your code.
+Declaring Variables:
+-var: Can be redeclared & has function scope.
+-let: Can be reassigned but nott redeclared & has bloch scope. 
+-const: Can not be redeclared nor reassigned, it has the block function can be used for values that should not change.
+DATA TYPES:
+
 
 
 
