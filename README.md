@@ -37,7 +37,8 @@ two different elements for Bold: "<strong>" element, which is used to show impor
  **HTML QUOTES:** 
 <cite> & <blockquote> elements serve a semantic purpose to inform other computers.
 We can use the "<q>" element in HTML, which stands for quote. By using this element, the browser will automatically provide the appropriate quote marks for us.
-Some HTML elements, like <strong>, <b>, <I>, and <em>, are called "inline" because they are meant to wrap around phrases of text that are inline with other content. They serve a similar purpose as the "<q>" element.
+Some HTML elements, like <strong>, <b>, <I>, and <em>, are called "inline" because they are meant to wrap around phrases of text that are inline with other content. 
+They serve a similar purpose as the "<q>" element.
 Some Elements in HTML known as block-level elements, like block quotes, paragraphs, and unordered lists. 
 These elements essentially create separate blocks on the page. 
 You can think of them as stand alone entities that can be followed by another block.
@@ -63,6 +64,8 @@ Small text: <small> insert your text </small>
 TROUBLESHOOTING & DEBUGGING HTML CODES:
 **HTML ATTRIBUTES:**
 The four most important Global Attributes: "class," "id," "lang," and "dir." You can find a comprehensive list of all the Global Attributes on MDM web docs.
+ Example of how to add "class" to style "class."
+ Example of how to add "id#"
 The Class Attribute: allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class.
 The ID Attribute: It is similar to the class attribute, but we can only use unique names once on an entire HTML page. IDs can be used for CSS targeting, but are more specific, which can sometimes cause issues. 
 The lang Attribute: allows us to specify the language of the content using a short language code.
