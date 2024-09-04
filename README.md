@@ -296,19 +296,19 @@ To target links we use the 'a' anchor tag
 JAVASCRIPT BASICS
 VARIABLES & DATA TYPE
 A variable in JavaScript is a container that holds data values. Variables allow you to store, update, and manipulate information throughout your code.
-Declaring Variables:
+                                            Declaring Variables:
 -var: Can be redeclared & has function scope.
 -let: Can be reassigned but nott redeclared & has bloch scope. 
 -const: Can not be redeclared nor reassigned, it has the block function can be used for values that should not change.
-DATA TYPES:
+                                            DATA TYPES:
 -Numbers: Refers to the use of numeric values.
 -Strings: Refers to the sequence of characters to represent a text.
 -Booleans: Mainly used in conditions & logical operations (true or false).
 -Arrays: Refers to the use of list of values that can be different types of data stored in single variable. 
 -Objects: Complex data structures that can hold multiple values and functions (methods) as properties.
-OPERATORS & EXPRESSIONS:
+                                           OPERATORS & EXPRESSIONS:
 Operators: are building blocks of expression in JavaScript, they are made of symbols or keywords used to perform operations on values.
-TYPES OF OPERATORS:
+                                             TYPES OF OPERATORS:
 -Arithmetic Operators: Are used for mathematical caculations. Arithmetic operators refers to mathematical signs used when calculating (+; -; x; % & *).
 -Assignment Operators: Are used to assign values to variables. = (assign), += (add and assign), -= (subtract and assign), *= (multiply and assign), /= (divide and assign).
 -Comparison Operators: Are used to compare values & return a boolean (true or false). == (equal), != (not equal), === (strict equal), !== (strict not equal), > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to).
@@ -317,12 +317,26 @@ TYPES OF OPERATORS:
 -Ternary Operator: Refers to the short-hand of if-self statement. ++ (increment), -- (decrement), typeof (type of operand).
 
 EXPRESSIONS: refers to the combination of values, variables & operators that evaluates to a single value. Expressions can be simple or comples.
-TYPES OF EXPRESSIONS:
+                            TYPES OF EXPRESSIONS:
 ARITHMETIC EXPRESSION: Makes use of Arithmetic operators to perform calculations.
 COMPARISON EXPRESSION: Makes use of comparison operators to evaluate conditions.
 LOGICAL EXPRESSION: Makes use of multiple conditions using logic operator.
+                           CONTROL STRUCTURE (if-else,switch)
+"if the condition returns **true**, run code A, **else** run code B"
+                           1. if-else statement:
+if-else: it is an important control structure that puts a block of codes if a specified condition is true.
+We use the if-else statement when there are multiple conditions to evaluate, with different outcomes depending on the which confitions are true.
+                              STRUCTURE:
+if Block: Executes if the condition is true.
+else if Block: it is optional, it evaluates if the first condition was false.
+else block: when the previous conditions are not met else block executes.
+                          2. Switch Statement:
+Switch: it is a control structure that can be used to used for executing one block of code among many based on the value of an expression. 
 
-CONTROL STRUCTURE (if-else,switch)
+
+
+
+
 
 
 
