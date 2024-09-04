@@ -316,7 +316,14 @@ TYPES OF OPERATORS:
 -Unary Operators: They operate on single operand. 
 -Ternary Operator: Refers to the short-hand of if-self statement. ++ (increment), -- (decrement), typeof (type of operand).
 
-EXPRESSIONS:
+EXPRESSIONS: refers to the combination of values, variables & operators that evaluates to a single value. Expressions can be simple or comples.
+TYPES OF EXPRESSIONS:
+ARITHMETIC EXPRESSION: Makes use of Arithmetic operators to perform calculations.
+COMPARISON EXPRESSION: Makes use of comparison operators to evaluate conditions.
+LOGICAL EXPRESSION: Makes use of multiple conditions using logic operator.
+
+CONTROL STRUCTURE (if-else,switch)
+
 
 
 
