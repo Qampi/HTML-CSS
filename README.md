@@ -3,7 +3,8 @@ html serves as a channel for different types of content like words, images, vide
 html makes use of tags to mark different elements
 HTML is all about recognizing commonly used elements such as paragraphs, headings, lists, and links that define the structure of a webpage.
 attributes provide a way to name HTML elements and reference them in other parts of the code stack.  Other attributes in HTML have various functionalities,other attribute allows visitors to edit the content on a web page. HTML attributes facilitate the editing capability within the browser.
-ARIA Roles are extra attributes that can be added to HTML elements to convey the message more meanigful.
+ARIA Roles 
+are extra attributes that can be added to HTML elements to convey the message more meanigful.
 to create a link make use of the 'A'element which stans for ánchor'- we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference
 to create a URL that is relative to the root level it needs to start with '/' can be known as absolute URL. a URL that is relative to the location of the file start it with ..- goes to one level which is the one mentioned on the URL. can be known as relative URL. 
 THE FUNCTION OF HTML:
@@ -331,9 +332,25 @@ if Block: Executes if the condition is true.
 else if Block: it is optional, it evaluates if the first condition was false.
 else block: when the previous conditions are not met else block executes.
                           2. Switch Statement:
-Switch: it is a control structure that can be used to used for executing one block of code among many based on the value of an expression. 
+Switch: it is a control structure that can be used to executing one block of code among many based on the value of an expression.
+                            STRUCTURE:
+switch keyword: analyse expressions if they match with one of the case labels
+Case labels: 
+Break statement: 
+Default case: 
+                              FUNCTIONS & SCOPE:
+                                     FUNCTIONS:
+Function refers to a block of codes that are designeted to perfor a spefic task, those block of codes can be reused by coders. 
+                                  FUNCTION DECLARATION:
 
 
+                                        SCOPE:
+
+                           SELECTING & MODIFYING DOM:
+                                      DOCUMENT OBJECT MODEL:
+HTML document is basically a bunch of HTML elements nested inside each other. This nesting creates a tree structure, like a family tree with parents, children, and siblings. The browser pays attention to this structure and builds a big family tree that shows how everything is related. To big Family tree that is called the DOM (Document Object Model). 
+JavaScript can be used to manipulate your Html content by updating content and the appearance of a webpage.
+SELECTING 
 
 
 
