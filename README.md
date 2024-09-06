@@ -299,7 +299,7 @@ VARIABLES & DATA TYPE
 A variable in JavaScript is a container that holds data values. Variables allow you to store, update, and manipulate information throughout your code.
                                             Declaring Variables:
 -var: Can be redeclared & has function scope.
--let: Can be reassigned but nott redeclared & has bloch scope. 
+-let: Can be reassigned but nott redeclared & has block scope. 
 -const: Can not be redeclared nor reassigned, it has the block function can be used for values that should not change.
                                             DATA TYPES:
 -Numbers: Refers to the use of numeric values.
@@ -346,11 +346,56 @@ Function refers to a block of codes that are designeted to perfor a spefic task,
 
                                         SCOPE:
 
-                           SELECTING & MODIFYING DOM:
-                                      DOCUMENT OBJECT MODEL:
+                                  SELECTING & MODIFYING DOM:
+                                      1. DOCUMENT OBJECT MODEL:
 HTML document is basically a bunch of HTML elements nested inside each other. This nesting creates a tree structure, like a family tree with parents, children, and siblings. The browser pays attention to this structure and builds a big family tree that shows how everything is related. To big Family tree that is called the DOM (Document Object Model). 
 JavaScript can be used to manipulate your Html content by updating content and the appearance of a webpage.
-SELECTING 
+                                    2. SELECTING DOM ELEMENTS:
+ Refers to targeting specific HTML elements to manipulate with Javascript.
+                                  METHODS TO SELECTING DOM ELEMENTS:
+ .getElemenyById
+ .getElemenByClassName
+ .getElements ByTagNames
+ .querySelect
+ .querySelectAll
+                             3. MODIFYING DOM
+  Refers on varies ways that can be used to modify DOM elements by changing style, content, attribute & structure once you have selected your elements.
+                                    COMMON MODIFICATIONS:
+  .Changing content
+  .Changing style
+  .Adding/Removing classes
+  .Changing attributes
+  .creating & inserting elements
+                         EVENT HANDLING:
+                 1. JAVASCRIPT EVENTS:
+Events refers to occurrence (actions) to html elements.
+                 2. EVENT LISTENERS:
+Refers to functions that act once certain events occurs. 
+                 ATTACTING EVENT LISTENERS:
+.addEventListener
+.in line event handler
+                 3. COMMON EVENT TRYPES
+.Mouse event
+.Keyboard event
+.Form events
+.Document/window events
+                 4. EVENT OBJECT
+EVENT OBJECT:
+                CREATING & REMOVING EVENTS DYNAMICALLY:
+                 1. CREATING ELEMENTS DYNAMICALLY:
+Refers to the creation of HTML element using Javascript, elements that can be addded to the DOM.
+                   STEPS TO CREATE ELEMENTS
+.create elements
+.Set attributes/ content
+.Append to the DOM
+                2. REMOVING ELEMENTS DYNAMICALLY:
+Refers to deleting existing elements using Javascript.
+                    METHODS TO REMOVE ELEMENTS:
+.removeChild
+.remove
+               3. PRACTICAL APPLICATIONS:
+ .Adding dynamic content
+ .Interactive UI elements
 
 
 
