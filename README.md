@@ -294,13 +294,14 @@ To target links we use the 'a' anchor tag
  
  
 **SOTFWARE DEVELOPMENT BOOTCAMP:**
-JAVASCRIPT BASICS
+                                                                      JAVASCRIPT BASICS
+JAVASCRIPT: It is a scripting language to make your webpages interactive
 VARIABLES & DATA TYPE
 A variable in JavaScript is a container that holds data values. Variables allow you to store, update, and manipulate information throughout your code.
                                             Declaring Variables:
 -var: Can be redeclared & has function scope.
--let: Can be reassigned but nott redeclared & has block scope. 
--const: Can not be redeclared nor reassigned, it has the block function can be used for values that should not change.
+-let: Can be reassigned but not redeclared & has block scope. 
+-const: Can not be redeclared nor reassigned, it has the block function which can be used for values that should not change.
                                             DATA TYPES:
 -Numbers: Refers to the use of numeric values.
 -Strings: Refers to the sequence of characters to represent a text.
@@ -340,15 +341,21 @@ Break statement:
 Default case: 
                               FUNCTIONS & SCOPE:
                                      FUNCTIONS:
-Function refers to a block of codes that are designeted to perfor a spefic task, those block of codes can be reused by coders. 
+Function refers to a block of codes that are designeted to perform a spefic task, those block of codes can be reused by coders. 
                                   FUNCTION DECLARATION:
 
 
                                         SCOPE:
-
+.Determines the visibility of variables within a code (how accessibly are the variables in different parts of the code).
+                                     TYPES OF SCOPE:
+ .Global scope:
+ .Local scope
+ .Function scope
+ .Block scope
+ .Hoisting:
                                   SELECTING & MODIFYING DOM:
                                       1. DOCUMENT OBJECT MODEL:
-HTML document is basically a bunch of HTML elements nested inside each other. This nesting creates a tree structure, like a family tree with parents, children, and siblings. The browser pays attention to this structure and builds a big family tree that shows how everything is related. To big Family tree that is called the DOM (Document Object Model). 
+Document Object Model is basically a bunch of HTML elements nested inside each other. This nesting creates a tree structure, like a family tree with parents, children, and siblings. The browser pays attention to this structure and builds a big family tree that shows how everything is related. To big Family tree that is called the DOM (Document Object Model). 
 JavaScript can be used to manipulate your Html content by updating content and the appearance of a webpage.
                                     2. SELECTING DOM ELEMENTS:
  Refers to targeting specific HTML elements to manipulate with Javascript.
@@ -358,7 +365,7 @@ JavaScript can be used to manipulate your Html content by updating content and t
  .getElements ByTagNames
  .querySelect
  .querySelectAll
-                             3. MODIFYING DOM
+                                     3. MODIFYING DOM
   Refers on varies ways that can be used to modify DOM elements by changing style, content, attribute & structure once you have selected your elements.
                                     COMMON MODIFICATIONS:
   .Changing content
@@ -374,7 +381,7 @@ Refers to functions that act once certain events occurs.
                  ATTACTING EVENT LISTENERS:
 .addEventListener
 .in line event handler
-                 3. COMMON EVENT TRYPES
+                 3. COMMON EVENT TYPES
 .Mouse event
 .Keyboard event
 .Form events
@@ -396,6 +403,16 @@ Refers to deleting existing elements using Javascript.
                3. PRACTICAL APPLICATIONS:
  .Adding dynamic content
  .Interactive UI elements
+                                         ADVANCED JAVASCRIPT
+ .INTRODUCTION TO NODE.js
+ serves the side server version of Javascript, allows you to add more interactive functional to your webpages
+ .javascript & Node
+ .Pros of Javascript
+ .Callback & Asynchronous tasks: 
+                                    SYNCHRONOUS TASKS:
+  -Allows you to run one task per time, begins other task once the first one finishes
+                                    ASYNCHRONOUS TASKS:
+  -Allows you to run multiple task, without waiting for the first one to finish up
 
 
 
