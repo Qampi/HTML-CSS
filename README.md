@@ -390,7 +390,7 @@ Refers to functions that act once certain events occurs.
 EVENT OBJECT:
                 CREATING & REMOVING EVENTS DYNAMICALLY:
                  1. CREATING ELEMENTS DYNAMICALLY:
-Refers to the creation of HTML element using Javascript, elements that can be addded to the DOM.
+Refers to the creation of new HTML element using Javascript, elements that can be addded to the DOM.
                    STEPS TO CREATE ELEMENTS
 .create elements
 .Set attributes/ content
@@ -407,12 +407,18 @@ Refers to deleting existing elements using Javascript.
  .INTRODUCTION TO NODE.js
  serves the side server version of Javascript, allows you to add more interactive functional to your webpages
  .javascript & Node
+ 
  .Pros of Javascript
+ 
  .Callback & Asynchronous tasks: 
                                     SYNCHRONOUS TASKS:
-  -Allows you to run one task per time, begins other task once the first one finishes
+-Allows you to run one task per time, begins other task once the first one finishes
                                     ASYNCHRONOUS TASKS:
-  -Allows you to run multiple task, without waiting for the first one to finish up
+-Allows you to run multiple task, without waiting for the first one to finish up
+                                      ES6-FEATURES
+Block-scope Variables 
+1. Let & Const
+   
 
 
 
