@@ -388,7 +388,7 @@ Refers to functions that act once certain events occurs.
 .Document/window events
                  4. EVENT OBJECT
 EVENT OBJECT:
-                CREATING & REMOVING EVENTS DYNAMICALLY:
+                CREATING & REMOVING ELEMENTS DYNAMICALLY:
                  1. CREATING ELEMENTS DYNAMICALLY:
 Refers to the creation of new HTML element using Javascript, elements that can be addded to the DOM.
                    STEPS TO CREATE ELEMENTS
@@ -415,6 +415,7 @@ Refers to deleting existing elements using Javascript.
 -Allows you to run one task per time, begins other task once the first one finishes
                                     ASYNCHRONOUS TASKS:
 -Allows you to run multiple task, without waiting for the first one to finish up
+                                      
                                       ES6-FEATURES
 Block-scope Variables 
 1. Let & Const
