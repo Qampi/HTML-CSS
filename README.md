@@ -419,7 +419,7 @@ Refers to deleting existing elements using Javascript.
                                       ES6-FEATURES
 Block-scope Variables 
 1. Let & Const
-   
+   allow you to declare variables that are visible to the block instead of the entire function or global scope
 
 
 
