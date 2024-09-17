@@ -347,12 +347,17 @@ Function refers to a block of codes that are designeted to perform a spefic task
 
                                         SCOPE:
 .Determines the visibility of variables within a code (how accessibly are the variables in different parts of the code).
+.Scope serves as enviromment for variables to be layed on (that variables can be declared & accessed on). 
                                      TYPES OF SCOPE:
- .Global scope:
- .Local scope
- .Function scope
- .Block scope
- .Hoisting:
+ .Global scope: Serves as the widest scope in Javascript, variables declared in global scope can be acessed anywhere in your code
+ .Local scope: Visibility of variables are limited in local scope, variables can only be accessed within where they are declared
+ .Function scope: Each function creates a new scope & a variable declared within a function can only be acessible in that function.
+ .Block scope: serves as a large container with nested boxes, each box with its sets of variables, variables declared on block scope can not escape to outer scpes.
+ .Hoisting: Refers to the behaviour which affects functions and variables in Javascript
+ GLOBAL SCOPE
+ -Mainly used for variables declared outside functions
+ LOCAL SCOPE
+ -used for variables declared inside functions
                                   SELECTING & MODIFYING DOM:
                                       1. DOCUMENT OBJECT MODEL:
 Document Object Model is basically a bunch of HTML elements nested inside each other. This nesting creates a tree structure, like a family tree with parents, children, and siblings. The browser pays attention to this structure and builds a big family tree that shows how everything is related. To big Family tree that is called the DOM (Document Object Model). 
@@ -417,9 +422,22 @@ Refers to deleting existing elements using Javascript.
 -Allows you to run multiple task, without waiting for the first one to finish up
                                       
                                       ES6-FEATURES
+ 
 Block-scope Variables 
+FUNCTION FOR BLOCK-SCOPE VARIABLES
+-Helps to avoid variable leakage & makes it easy to debug.
 1. Let & Const
-   allow you to declare variables that are visible to the block instead of the entire function or global scope
+-allow you to declare variables that are visible to the block instead of the entire function or global scope
+2. ARROW FUNCTIONS
+-CONCISE SYNTAX
+.If creating a function you must make use of the function keyword
+-LEXICAL this
+3. TEMPLATE LITERAL
+-refers to the use of backsticks to denote strings  ''') not quotation marks
+                                       EXAMPLE OF TEMPLATE LITERAL:
+// Using template literal
+const str2 = `Hi ${userName}, your balance is ${balance}.`
+console.log("Template literal: ", str2)
 
 
 
