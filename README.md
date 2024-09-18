@@ -411,15 +411,19 @@ Refers to deleting existing elements using Javascript.
                                          ADVANCED JAVASCRIPT
  .INTRODUCTION TO NODE.js
  serves the side server version of Javascript, allows you to add more interactive functional to your webpages
- .javascript & Node
+ .JAVASCRIPT & NODEs
  
- .Pros of Javascript
- 
- .Callback & Asynchronous tasks: 
+                            PROS OF JAVASCRIPT
+ -javascript is advanced with speed
+ -has simple syntax 
+ -front and back end code and language can be shared (versatality).
+                              CALLBACKS & ASYNCHRONOUS TAKS:
+                                       CALLBACKS:
+ -Refers to a function that is passed as an argument to another function, and then called in that function to perform a task.
                                     SYNCHRONOUS TASKS:
--Allows you to run one task per time, begins other task once the first one finishes
+-Allows you to run one task per time, begins with new task once the first one finishes up
                                     ASYNCHRONOUS TASKS:
--Allows you to run multiple task, without waiting for the first one to finish up
+-Allows you to run multiple task, without waiting for the first one to finishes up
                                       
                                       ES6-FEATURES
  
@@ -438,6 +442,39 @@ FUNCTION FOR BLOCK-SCOPE VARIABLES
 // Using template literal
 const str2 = `Hi ${userName}, your balance is ${balance}.`
 console.log("Template literal: ", str2)
+                                     ASYNCHRONOUS JAVASCRIPT
+1. CALLBACKS:
+   Refers to a function that is passed as an argument to another function, and then called in that function to perform a task.
+   **Arguments** are values (primitive or object) passed as input to a function. Do not confuse arguments with parameters, which are the names used in the function definition to refer to the arguments.
+2. PROMISES:
+   Refers to an object that reppresent the eventual completion of Asynchronous expression
+   They allow you to chain operations
+         STATE OF PROMISE:
+.PENDING: initial state 
+.FULLFILLED: operation successful
+.REJECTED: operation failed
+        CHAINING:
+.then () & .catch ()
+        ADVANTAGE;
+-promises improve your code readability
+3. ASYNC/AWAIT
+-Are built on top of promise
+       USAGE:
+   ASYNC: Used to declare a function that returns a PROMISE
+   AWAIT: Used inside the ASYNC function to pause the execution until the promise is successful or rejected, making code appear linear.
+           ADVANTAGE:
+-helps to easily manage code errors.
+4.WHY ASYNCHRONOUS MATTERS ON JAVASCRIPT:
+   NON-BLOCKING CODE:
+   -
+   SCALABILITY
+   -
+   MODERM JAVASCRIPT DEVELOPMENT
+   -
+
+         ERROR HANDLING (TRY-CATCH)
+   
+   
 
 
 
