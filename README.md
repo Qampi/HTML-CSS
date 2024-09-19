@@ -408,7 +408,7 @@ Refers to deleting existing elements using Javascript.
                3. PRACTICAL APPLICATIONS:
  .Adding dynamic content
  .Interactive UI elements
-                                         ADVANCED JAVASCRIPT
+                                                      ADVANCED JAVASCRIPT
  .INTRODUCTION TO NODE.js
  serves the side server version of Javascript, allows you to add more interactive functional to your webpages
  .JAVASCRIPT & NODEs
@@ -420,10 +420,16 @@ Refers to deleting existing elements using Javascript.
                               CALLBACKS & ASYNCHRONOUS TAKS:
                                        CALLBACKS:
  -Refers to a function that is passed as an argument to another function, and then called in that function to perform a task.
+ -Callbacks allow you to perform Asynchronous programs in Javascript
+ -Callbacks are mainly used in event handling scenarios, making API & when sending a file through Asynchronous programming.
+ -Callbacks serve to make it easy to control and manage your Asyncronous program
+                                      CALLBACK HELL:
+ -Refers to a problem that you may run into while running multiple Asynchronous tasks with callbacks
                                     SYNCHRONOUS TASKS:
--Allows you to run one task per time, begins with new task once the first one finishes up
+-It is a programming technique that allows you to run one task per time, begins with new task once the first one finishes up
                                     ASYNCHRONOUS TASKS:
--Allows you to run multiple task, without waiting for the first one to finishes up
+-It is a programming technique llows you to run multiple task, without waiting for the first one to finishes up
+-Makes your Javascript program runs fast
                                       
                                       ES6-FEATURES
  
@@ -437,7 +443,7 @@ FUNCTION FOR BLOCK-SCOPE VARIABLES
 .If creating a function you must make use of the function keyword
 -LEXICAL this
 3. TEMPLATE LITERAL
--refers to the use of backsticks to denote strings  ''') not quotation marks
+-refers to the use of backsticks to denote strings  (''') not quotation marks
                                        EXAMPLE OF TEMPLATE LITERAL:
 // Using template literal
 const str2 = `Hi ${userName}, your balance is ${balance}.`
@@ -457,6 +463,7 @@ console.log("Template literal: ", str2)
 .then () & .catch ()
         ADVANTAGE;
 -promises improve your code readability
+-To avoid Callbacks Hell make use of PROMISES
 3. ASYNC/AWAIT
 -Are built on top of promise
        USAGE:
@@ -465,15 +472,48 @@ console.log("Template literal: ", str2)
            ADVANTAGE:
 -helps to easily manage code errors.
 4.WHY ASYNCHRONOUS MATTERS ON JAVASCRIPT:
+-Javascript it is a single-thraded language meaning it can only handle one opertion at a time.
    NON-BLOCKING CODE:
-   -
+   -Asynchronous operations allow Javascript to perform multiple operations or concurent operatioons. 
    SCALABILITY
-   -
+   -it is adviceable to make use of Asynchrnous patterns (callbacks,promises,Async & Await) to build scalable applications that can handle multiple tasks.
    MODERM JAVASCRIPT DEVELOPMENT
    -
-
          ERROR HANDLING (TRY-CATCH)
-   
+   -Error handing allows you manage and handle unexpected errors during code execution.
+                          try-catch statement
+   -provides a structured way to handle errors
+   -can only catch errors in synchronous code because it is a Synchronous block
+                     TRY
+   -
+                   CATCH
+   -
+   1. IMPORTANCE OF ERROR HANDLING:
+             ROBUST APPLICATION:
+   -Error handling helps you to create uder-friendly applications
+             DEBBUGING & MAINTENANCE
+   -Error handling helps in debuing and maintaining code
+   2. The try-catch statement
+                  STRUCTURE:
+      -allows you to test a block of codes for errors
+                   SYNTAX:
+       try {
+       // code that may throw error
+      } Catch (error) {
+      // code to handle the error
+      } finally {
+      // code that runs regardless of the outcome
+      }
+ 3. try-catch up in action:
+    try Block
+    try Statement
+    catch Block
+    finaly Block
+ 4. COOMON USES CASES FOR try-catch:
+    HANDLIN EXTERNAL SOURCES:
+-
+
+      
    
 
 
