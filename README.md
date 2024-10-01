@@ -486,7 +486,7 @@ console.log("Template literal: ", str2)
    -can only catch errors in synchronous code because it is a Synchronous block
                      TRY
    -
-                   CATCH
+    CATCH
    -
    1. IMPORTANCE OF ERROR HANDLING:
              ROBUST APPLICATION:
@@ -513,8 +513,8 @@ console.log("Template literal: ", str2)
     HANDLIN EXTERNAL SOURCES:
 -
 
-      
-   
+     REACT BASICS:
+-React it is a Powerful Javascript library used 
 
 
 
