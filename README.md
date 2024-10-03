@@ -443,7 +443,7 @@ FUNCTION FOR BLOCK-SCOPE VARIABLES
 .If creating a function you must make use of the function keyword
 -LEXICAL this
 3. TEMPLATE LITERAL
--refers to the use of backsticks to denote strings  (''') not quotation marks
+-refers to the use of backsticks to denote strings  (````) not quotation marks
                                        EXAMPLE OF TEMPLATE LITERAL:
 // Using template literal
 const str2 = `Hi ${userName}, your balance is ${balance}.`
