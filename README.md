@@ -514,7 +514,8 @@ console.log("Template literal: ", str2)
 -
 
      REACT BASICS:
--React it is a Powerful Javascript library used 
+-React it is a Powerful Javascript library used
+[http://127.0.0.1:3000/items] 
 
 
 
