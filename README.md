@@ -542,6 +542,82 @@ PROPS & STATE:
 1. UNDERSTANDING PROPS
    <Props is short for Properties
    <are used to pass data from one cmponent to another, typicaly from a parent component to a child component
+2. UNDERSTANDING STATE:
+   <its a build-in object that allows component to create & manage their own data.
+   <state is used for data that changes, form inputs are example of data that changes.
+3. PROPS vs. STATE:
+   PROPS
+   <allows data to pass from one component to another
+   <are immutable (read-only)
+   
+   STATE:
+   <Allows components to create & manage data within.
+   <are mutable (changes).
+4. Best practices to uses PROPS and STATE:
+   -
+   -
+
+ADVANCE REACT:
+  COMPONENTS IFECYCLE METHODS: 
+ -React compoonents go through a series of phase during their existence, form creation to destruction.
+ 1. UNDERSTANG THE COMPONENT LIFECYCLE:
+    -LIFECYCLE PHASES:
+    <MOUNTING PHASE: Components are created and inserted to the DOM
+    <UPDATING PHASE: Components are rerendered due to the changes in PROPS and STATE
+    <UNMOUNTING PHASE: Components are removed and the DOM cleaned up
+2. KEY LIFECYCLE METHODS:
+   1. MOUNTING PHASE:
+   2. UPDATING PHASE:
+   3. UNMOUNTING PHASE:
+3. LIFECYCLE METHODS IN FUNCTIONAL COMPONENTS:
+   -React Hooks
+   -Using UseEffect
+4. BEST PRACTICES FOR LIFECYCLE METHODS:
+   -Avoid side effects in render()
+   -
+
+
+REACT HOOKS (useState, useEffect)
+- React Hooks arefunctions that allow you to use state and React features in functional components.
+  1. INTRODUCTION TO REACT HOOKS
+     -WHAT ARE HOOKS?
+     <Hooks allow you to manage state, perform side effects and much more without converting your functional components to classes.
+     -WHY USE HOOKS?
+     <Simpler code: they reuce the need for boilerplate code
+     <Reuse logic: allows you to use stateful logic across components without creating duplicate code.
+ 2. useState: Managing State in functional Coponents
+    -What is useState?
+    <it is a Hook that lets you ad state to functional components.
+    -How useState works?
+    <You initialize state by calling useState & passing the initial state value.
+3. useEffect: Handling side effect on functional components
+   -What is useEffect?
+   <it is a Hook that lets you perform side effects in functional components. Side effects such as data fetching, subscriptions and manually updating the DOM.
+   -How useEffect works?
+   <
+4. Best practices for useState & useEffect
+   -
+   -
+
+ROUTING WITH REACT ROUTER:
+1. INTRODUCTION TO REACT ROUTER
+   -WHAT IS REACT ROUTER?
+   <it is a powerful library used for managing navigation & routing in React Applications. it enables you to define different routers in your application.
+   -WHY USE REACT ROUTER?
+   <React Router allows you to build a Single Page Application (SPA)
+   <Routes are defined as components
+2. SETTING UP REACT ROUTER:
+   -Installation
+   -Key Components
+3. NAVIGATING BETWEEN ROUTERS:
+   -Using the link component
+4. DYNAMIC TOUTING:
+   -Using URL parameters
+   -Nested Routes
+5. BEST PRACTICES FOR USING ROUTER
+   -Organize Routes clearly
+   -Use nested Routes wisely
+   -Error Handling
    
 
 
