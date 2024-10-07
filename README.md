@@ -620,8 +620,7 @@ ROUTING WITH REACT ROUTER:
    -Error Handling
    
 
-
-     
+                                            PYTHON BASICS:
   
 
 
