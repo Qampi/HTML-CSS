@@ -514,8 +514,41 @@ console.log("Template literal: ", str2)
 -
 
      REACT BASICS:
--React it is a Powerful Javascript library used
-[http://127.0.0.1:3000/items] 
+-React it is a Powerful Javascript library used to build dynamic and interactive user nterfaces (UI).
+-react is built around the concept of components.
+-JSX (JavaScript XML)is the syntax used within React to describe what the User Interface (UI) should look like.
+
+1. UNDERSTANDING COMPONENTS:
+   -Refers to a self-contained  piece of code that represents part of the User Interface.
+COMPONENTS CAN EITHER BE: 
+   -functional components:
+   -class-based components:
+
+TWO TYPES OF COMPONENTS:
+    <Presentational Coponents: pays attention on how things look like.
+    <Container Compoents: pays attention on how things work.
+
+2. UNDERSTANDING JSX
+   -It a syntax extention for JavaScrip  used within React, it looks similar to HTML
+   -Makes it easy to visualise the structure of the UI
+                  WHY USE JSX?
+   -JSX is Decaractive, it allows you to write declaractive and clean code making it easy to understand the UI structure.
+   -
+
+3. WRITING COMPONENTS WITH JSX
+
+PROPS & STATE:
+-are core concepts that manages your data flow and interactivity within your application. 
+1. UNDERSTANDING PROPS
+   <Props is short for Properties
+   <are used to pass data from one cmponent to another, typicaly from a parent component to a child component
+   
+
+
+     
+  
+
+
 
 
 
